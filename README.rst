@@ -1,4 +1,4 @@
-This is a buildout which attempt to integrate "DjangoCMS 3.0" and "Django 1.6". There repository should be temporary and probably removed as all things works and implemented in `emencia-paste-django <https://github.com/emencia/emencia-paste-django>`.
+This is a buildout which attempts to integrate "DjangoCMS 3.0" and "Django 1.6". Their repository should be temporary and probably removed as all things works and implemented in `emencia-paste-django <https://github.com/emencia/emencia-paste-django>`_.
 
 Obstacles to overcome
 =====================
@@ -9,7 +9,7 @@ Obstacles to overcome
 So at first this buildout implement basic CMS structure to work, then step by step with re-enable plugins and apps and eventually correct them.
 
 .. WARNING::
-           DjangoCMS 3.x suffers from a major bugs with it's frontend interface that don't work with some Firefox versions, but seems to work well with Webkit.
+           DjangoCMS 3.x suffers from a major bug with it's frontend interface that don't work with some Firefox versions, but seems to work well with Webkit.
            
            Be sure to check the DjangoCMS documentation before to report bugs to ensure to know how the interface works, as it's very different from previous version.
 
