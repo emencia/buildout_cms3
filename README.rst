@@ -16,11 +16,11 @@ So at first this buildout implement basic CMS structure to work, then step by st
 What's done
 ===========
 
-* Basic buildout for default environment with config we are used to use;
+* Basic buildout for default environment with config we use in Epaster projects;
 * Basic DjangoCMS 3 working with minimal stuff (default ckeditor, no plugins, etc..);
 * Basic mods like emencia_utils and site_metas;
 
 Install
 =======
 
-This is our common procedure, so this the common way with ``make install`` and everything is installed.
+This is our common procedure, so you just have to use the common way with ``make install`` and everything is installed.

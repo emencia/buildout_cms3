@@ -8,3 +8,6 @@ INTERNAL_IPS = ('127.0.0.1',)
 
 # Test emails by looking at the console
 EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
+
+# Enable raising exception from django-filer
+FILER_DEBUG = True

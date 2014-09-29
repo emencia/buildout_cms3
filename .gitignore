@@ -20,7 +20,7 @@
 /parts
 /etc
 # do not hide /var/log, if does not exist uwsgi refuses to start
-/var/log/uwsgi.log
+/var/log/*.log
 
 # project db
 *.sqlite3

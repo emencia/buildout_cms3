@@ -24,6 +24,7 @@ INSTALLED_APPS = add_to_tuple(INSTALLED_APPS,
     'sekizai',  # for javascript and css management
     'djangocms_admin_style',  # for the admin skin. You **must** add 'djangocms_admin_style' in the list **before** 'django.contrib.admin'.
     'djangocms_snippet',
+    'cmsplugin_filer_image',
     #'reversion', # raise error on south migration, there is a bug with the last version and django1.6
 )
 
@@ -41,3 +42,14 @@ CMS_TEMPLATES = (
 SOUTH_MIGRATION_MODULES = {
     'easy_thumbnails': 'easy_thumbnails.south_migrations',
 }
+
+# Enable 'cmsplugin_filer_image' usage in ckeditor
+TEXT_SAVE_IMAGE_FUNCTION='cmsplugin_filer_image.integrations.ckeditor.create_image_plugin'
+
+THUMBNAIL_PROCESSORS = (
+    'easy_thumbnails.processors.colorspace',
+    'easy_thumbnails.processors.autocrop',
+    #'easy_thumbnails.processors.scale_and_crop',
+    'filer.thumbnail_processors.scale_and_crop_with_subject_location',
+    'easy_thumbnails.processors.filters',
+)

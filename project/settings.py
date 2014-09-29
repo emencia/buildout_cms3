@@ -224,6 +224,7 @@ TEMPLATE_CONTEXT_PROCESSORS = (
     'django.core.context_processors.static',
     'django.core.context_processors.tz',
 )
+
 # Otherwise uploaded files larger than FILE_UPLOAD_MAX_MEMORY_SIZE will be
 # written with 0600 permissions, and so Nginx won't be able to serve them.
 # This issue has been found with django-filebrowser-no-grappelli
