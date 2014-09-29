@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 import os
 
-INSTALLED_APPS = add_to_tuple(INSTALLED_APPS, 'djangocms_text_ckeditor')
+INSTALLED_APPS = add_to_tuple(INSTALLED_APPS, 'djangocms_text_ckeditor', before='cms')
 
 STATICFILES_DIRS += ( os.path.join(MOD_FILE, "static"),)
 TEMPLATE_DIRS += (os.path.join(MOD_FILE, "templates"),)
@@ -39,10 +39,10 @@ CKEDITOR_SETTINGS = {
     'templates_files': [
         '/ckeditor/editor_site_templates.js'
     ],
-    # Redéfinition pour activer le plugin codemirror
-    'extraPlugins': 'cmsplugins,codemirror',
-    # Lien pour activer "Explorer le serveur" au travers de django-filebrowser
-    'filebrowserBrowseUrl': "/admin/filebrowser/browse?pop=3",
+    ## Redéfinition pour activer le plugin codemirror
+    #'extraPlugins': 'cmsplugins,codemirror',
+    ## Lien pour activer "Explorer le serveur" au travers de django-filebrowser
+    #'filebrowserBrowseUrl': "/admin/filebrowser/browse?pop=3",
     # Utile pour temporairement désactiver le menu de contexte (clic droit) et plugins 
     # dépendants dans l'éditeur
     #'removePlugins': 'liststyle,tabletools,scayt,menubutton,contextmenu',

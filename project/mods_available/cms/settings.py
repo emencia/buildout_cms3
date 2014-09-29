@@ -14,7 +14,6 @@ MIDDLEWARE_CLASSES += (
 )
 
 INSTALLED_APPS = add_to_tuple(INSTALLED_APPS,
-    'djangocms_text_ckeditor',  # note this needs to be above the 'cms' entry
     'filer',
     'easy_thumbnails',
     'cms',  # django CMS itself

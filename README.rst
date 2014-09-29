@@ -19,6 +19,9 @@ What's done
 * Basic buildout for default environment with config we use in Epaster projects;
 * Basic DjangoCMS 3 working with minimal stuff (default ckeditor, no plugins, etc..);
 * Basic mods like emencia_utils and site_metas;
+* Django-filer usage to manage images from the editor;
+* Enables debug-toolbar;
+* Re-enabled ckeditor customization;
 
 Install
 =======

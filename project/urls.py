@@ -17,14 +17,17 @@ urlpatterns = patterns('',
     url(r'^admin/', include(admin.site.urls)),
 )
 
+print "UUUUUURRRRRRRRRRLLLLLLLLLSSSSSSSSSS"
 # Mods system
 PROJECT_PATH = os.path.abspath(os.path.dirname(__file__))
 mods = os.path.join(PROJECT_PATH, 'mods_enabled')
 mods = [ os.path.join(mods, x) for x in os.listdir(mods) ]
 mods.sort()
 for mod in mods:
+    print "*", mod
     mod = os.path.join(mod, 'urls.py')
     if os.path.isfile(mod):
+        print "  -> yes"
         execfile(mod)
 
 # Debug
