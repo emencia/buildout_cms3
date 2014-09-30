@@ -19,11 +19,24 @@ What's done
 * Basic buildout for default environment with config we use in Epaster projects;
 * Basic DjangoCMS 3 working with minimal stuff (default ckeditor, no plugins, etc..);
 * Basic mods like emencia_utils and site_metas;
-* Django-filer usage to manage images from the editor;
+* Use Django-filer to manage images instead of filebrowser and its cms plugin is enabled;
 * Enables debug-toolbar;
 * Re-enabled ckeditor customization;
+* Zinnia and its cms plugin are enabled;
+* Contact form is enabled;
+
+Passed
+======
+
+Some things that have been put on hold to be able to focus on more important components/features :
+
+* Codemirror usage in ckeditor;
+* Zinnia does not use ckeditor;
+
+This should be resolved when important components will be stabilized
 
 Install
 =======
 
 This is our common procedure, so you just have to use the common way with ``make install`` and everything is installed.
+
