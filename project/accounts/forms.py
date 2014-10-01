@@ -63,8 +63,8 @@ class RegistrationFormAccounts(RegistrationFormUniqueEmail):
     """
     Form for registration
     """
-    firstname = forms.CharField(label=_('Firstname'), required=False)
-    lastname = forms.CharField(label=_('Lastname'))
+    first_name = forms.CharField(label=_('Firstname'), required=False)
+    last_name = forms.CharField(label=_('Lastname'))
     company = forms.CharField(label=_('Company'))
     function = forms.CharField(label=_('Function'))
     address = forms.CharField(label=_('Address'), required=False, widget=forms.Textarea(attrs={'rows':3}))
@@ -118,11 +118,11 @@ class RegistrationFormAccounts(RegistrationFormUniqueEmail):
                     Column(
                         Row(
                             Column(
-                                'firstname',
+                                'first_name',
                                 css_class='six unpadded'
                             ),
                             Column(
-                                'lastname',
+                                'last_name',
                                 css_class='six unpadded'
                             ),
                         ),

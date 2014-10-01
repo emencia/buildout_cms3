@@ -1,5 +1,4 @@
 {% load i18n %}
-{% load url from future %}
 
 {% blocktrans with domain=site.domain %}
 Your inscription on {{ domain }} is validated.

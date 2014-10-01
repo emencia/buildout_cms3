@@ -74,38 +74,40 @@ class RegistrationView(RegisView):
         class of this backend as the sender.
 
         """
-        username = cleaned_data['username']
-        email = cleaned_data['email']
-        password = cleaned_data['password1']
-        lastname = cleaned_data['lastname']
-        firstname = cleaned_data['firstname']
-        company = cleaned_data['company']
-        function = cleaned_data['function']
         if Site._meta.installed:
             site = Site.objects.get_current()
         else:
             site = RequestSite(request)
+            
         create_user = RegistrationProfile.objects.create_inactive_user
-        new_user = create_user(username, email, password, site,
-                               send_email=False)
-        new_user.first_name = firstname
-        new_user.last_name = lastname
+        new_user = create_user(
+            cleaned_data['username'],
+            cleaned_data['email'],
+            cleaned_data['password1'],
+            site,
+            send_email=False
+        )
+        new_user.first_name = cleaned_data['first_name']
+        new_user.last_name = cleaned_data['last_name']
         new_user.save()
-        user_info = UserInfo(lastname=lastname, company=company,
-                             function=function)
-        user_info.user = new_user
-        user_info.firstname = firstname
-        user_info.address = cleaned_data['address']
-        user_info.postal_code = cleaned_data['postal_code']
-        user_info.city = cleaned_data['city']
-        user_info.country = cleaned_data['country']
-        user_info.phone = cleaned_data['phone']
+        
+        user_info = UserInfo(
+            user=new_user,
+            company=cleaned_data['company'],
+            function=cleaned_data['address'],
+            address=cleaned_data['address'],
+            postal_code=cleaned_data['postal_code'],
+            city=cleaned_data['city'],
+            country=cleaned_data['country'],
+            phone=cleaned_data['phone'],
+        )
         user_info.save()
+        
         send_activation_email(new_user, site, user_info)
         send_activation_pending_email(new_user, site, user_info)
-        signals.user_registered.send(sender=self.__class__,
-                                     user=new_user,
-                                     request=request)
+        
+        signals.user_registered.send(sender=self.__class__, user=new_user, request=request)
+        
         return new_user
 
 

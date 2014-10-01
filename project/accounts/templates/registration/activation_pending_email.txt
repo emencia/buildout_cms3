@@ -10,8 +10,8 @@ Your inscription on {{ name }} was recorded
 {% trans "Username" %}: {{ username }}
 {% trans "E-mail" %}: {{ email }}
 
-{% trans "Firstname" %}: {{ user_info.firstname }}
-{% trans "Lastname" %}: {{ user_info.lastname }}
+{% trans "Firstname" %}: {{ first_name }}
+{% trans "Lastname" %}: {{ last_name }}
 {% trans "Company" %}: {{ user_info.company }}
 {% trans "Function" %}: {{ user_info.function }}
 {% trans "Address" %}: {{ user_info.address }}

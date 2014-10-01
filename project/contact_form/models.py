@@ -38,4 +38,4 @@ class Contact(ContactBase):
     city = models.CharField(_('city'), max_length=255, blank=True)
     state = models.CharField(_('state/province'), max_length=255, blank=True)
     country = models.ForeignKey(Country, verbose_name=_('country'), blank=True, null=True)
-    optin_newsletter = models.BooleanField(_("do you wish to receive the newsletter?"))
+    optin_newsletter = models.BooleanField(_("do you wish to receive the newsletter?"), default=False)

@@ -1,19 +1,13 @@
 {% extends "registration/base.html" %}
 {% load i18n %}
-{% load url from future %}
 
 {% block content %}
 
 {% if account %}
-
-<p>{% trans "Account successfully activated" %}</p>
-
-<p><a href="{% url 'auth_login' %}">{% trans "Log in" %}</a></p>
-
+    <p>{% trans "Account successfully activated" %}</p>
+    <p><a href="{% url 'auth_login' %}">{% trans "Log in" %}</a></p>
 {% else %}
-
-<p>{% trans "the user account has been already activated or the validation key is wrong" %}</p>
-
+    <p>{% trans "the user account has been already activated or the validation key is wrong" %}</p>
 {% endif %}
 
 {% endblock %}

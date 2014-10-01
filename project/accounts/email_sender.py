@@ -8,6 +8,8 @@ def send_activation_email(user, site, user_info):
     ctx_dict = {'activation_key': activate_user.activation_key,
                 'expiration_days': settings.ACCOUNT_ACTIVATION_DAYS,
                 'username': user.username,
+                'first_name': user.first_name,
+                'last_name': user.last_name,
                 'email': user.email,
                 'user_info': user_info,
                 'site': site}
@@ -25,6 +27,8 @@ def send_activation_pending_email(user, site, user_info):
 
     ctx_dict = {'site': site,
                 'username': user.username,
+                'first_name': user.first_name,
+                'last_name': user.last_name,
                 'email': user.email,
                 'user_info': user_info}
     subject = render_to_string('registration/activation_pending_email_subject.txt',

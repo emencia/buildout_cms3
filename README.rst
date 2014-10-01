@@ -23,6 +23,7 @@ What's done
 * Enables debug-toolbar;
 * Re-enabled ckeditor customization;
 * Zinnia and its cms plugin are enabled;
+* Accounts is enabled;
 * Contact form is enabled;
 
 Passed
