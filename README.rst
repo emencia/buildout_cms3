@@ -25,6 +25,7 @@ What's done
 * Zinnia and its cms plugin are enabled;
 * Accounts is enabled;
 * Contact form is enabled;
+* admin-tools is enabled;
 
 Passed
 ======

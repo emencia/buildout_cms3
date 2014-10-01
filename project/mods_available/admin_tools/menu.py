@@ -32,7 +32,6 @@ class CustomMenu(Menu):
                 _('Administration'),
                 models=('django.contrib.*',)
             ),
-            items.MenuItem(_('Filebrowser'), reverse('fb_browse')),
             #LanguageMenuItem(),
         ]
 

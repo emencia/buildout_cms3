@@ -94,7 +94,7 @@ class RegistrationView(RegisView):
         user_info = UserInfo(
             user=new_user,
             company=cleaned_data['company'],
-            function=cleaned_data['address'],
+            function=cleaned_data['function'],
             address=cleaned_data['address'],
             postal_code=cleaned_data['postal_code'],
             city=cleaned_data['city'],
