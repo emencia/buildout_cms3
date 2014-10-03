@@ -26,6 +26,9 @@ What's done
 * Accounts is enabled;
 * Contact form is enabled;
 * admin-tools is enabled;
+* sitemap is enabled;
+* staticpages is enabled;
+* slideshows is enabled;
 
 Passed
 ======

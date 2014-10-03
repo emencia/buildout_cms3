@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 
-INSTALLED_APPS = add_to_tuple(INSTALLED_APPS, 'sorl.thumbnail', 'slideshows')
+INSTALLED_APPS = add_to_tuple(INSTALLED_APPS, 'slideshows')
 
 # Available templates to display a slideshow
 SLIDESHOWS_TEMPLATES = (

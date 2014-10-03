@@ -14,8 +14,6 @@ MIDDLEWARE_CLASSES += (
 )
 
 INSTALLED_APPS = add_to_tuple(INSTALLED_APPS,
-    'filer',
-    'easy_thumbnails',
     'cms',  # django CMS itself
     'mptt',  # utilities for implementing a modified pre-order traversal tree
     'menus',  # helper for model independent hierarchical website navigation
@@ -38,17 +36,5 @@ CMS_TEMPLATES = (
     ('cms/3_cols.html', '3 columns'),
 )
 
-SOUTH_MIGRATION_MODULES = {
-    'easy_thumbnails': 'easy_thumbnails.south_migrations',
-}
-
 # Enable 'cmsplugin_filer_image' usage in ckeditor
 TEXT_SAVE_IMAGE_FUNCTION='cmsplugin_filer_image.integrations.ckeditor.create_image_plugin'
-
-THUMBNAIL_PROCESSORS = (
-    'easy_thumbnails.processors.colorspace',
-    'easy_thumbnails.processors.autocrop',
-    #'easy_thumbnails.processors.scale_and_crop',
-    'filer.thumbnail_processors.scale_and_crop_with_subject_location',
-    'easy_thumbnails.processors.filters',
-)
