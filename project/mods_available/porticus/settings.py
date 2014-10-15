@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 
-INSTALLED_APPS = add_to_tuple(INSTALLED_APPS, 'mptt', 'sorl.thumbnail', 'porticus')#, 'porticus.cmsplugin_porticus')
+INSTALLED_APPS = add_to_tuple(INSTALLED_APPS, 'mptt', 'tagging', 'porticus', 'porticus.cmsplugin_porticus')
 
 PORTICUS_GALLERIES_PAGINATION = PORTICUS_ALBUMS_PAGINATION = PORTICUS_RESSOURCES_PAGINATION = 16
 
@@ -11,6 +11,9 @@ PORTICUS_GALLERY_TEMPLATE_CHOICES = (
 PORTICUS_ALBUM_TEMPLATE_CHOICES = (
     ('porticus/album_detail.html', 'Album template to display its ressources (default)'),
 )
+PORTICUS_GALLERY_PLUGIN_TEMPLATE_CHOICES = (
+    ('porticus/cms/gallery_detail.html', 'Default template'),
+)
 PORTICUS_ALBUM_PLUGIN_TEMPLATE_CHOICES = (
     ('porticus/cms/album_detail.html', 'Default template'),
 )
@@ -18,6 +21,7 @@ PORTICUS_ALBUM_PLUGIN_TEMPLATE_CHOICES = (
 # Default template choices
 PORTICUS_GALLERY_TEMPLATE_DEFAULT = PORTICUS_GALLERY_TEMPLATE_CHOICES[0][0]
 PORTICUS_ALBUM_TEMPLATE_DEFAULT = PORTICUS_ALBUM_TEMPLATE_CHOICES[0][0]
+PORTICUS_GALLERY_PLUGIN_TEMPLATE_DEFAULT = PORTICUS_GALLERY_PLUGIN_TEMPLATE_CHOICES[0][0]
 PORTICUS_ALBUM_PLUGIN_TEMPLATE_DEFAULT = PORTICUS_ALBUM_PLUGIN_TEMPLATE_CHOICES[0][0]
 
 # Templates for templatetags
