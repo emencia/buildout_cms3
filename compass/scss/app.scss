@@ -65,8 +65,8 @@ $black:#000000;
 //@import "components/royalSlider";
 
 #body_content{
-    //@import "components/porticus";
-    //@import "components/socialaggregator";
-    //@import "components/zinnia";
+    @import "components/porticus";
+    @import "components/socialaggregator";
+    @import "components/zinnia";
     @import "components/contents";
 }

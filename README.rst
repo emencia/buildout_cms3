@@ -30,6 +30,7 @@ What's done
 * staticpages is enabled;
 * slideshows is enabled;
 * porticus is enabled;
+* socialaggregator is enabled;
 
 Passed
 ======

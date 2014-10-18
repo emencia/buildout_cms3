@@ -9,7 +9,6 @@
         
         .grid-base {
             width: 100%; // 1 colonne
-/*             @media #{$large-up} { */
             @media #{$medium-up} {
                 width: 25%; // 4 colonnes
                 text-indent:-3000px;
@@ -32,7 +31,7 @@
             }
             
             &:before {
-                color: #ffffff;
+                color: $black;
                 display: block;
                 position: absolute;
                 bottom: 1em;
@@ -41,7 +40,7 @@
             }
             
             &>a{
-                color: #ffffff;
+                color: $black;
                 &:hover{
                     color: inherit;
                 }
@@ -56,7 +55,7 @@
                 float: left;
                 overflow: hidden;
                 margin-left: $masonry-brick-gutter;
-                background-color: #FF6A63;
+                background-color: $secondary-color;
                 background-repeat: no-repeat;
                 @include background-size(auto 68.5%);
 
@@ -69,31 +68,16 @@
                     padding: $masonry-brick-gutter;
                     float: none;
                     overflow: hidden;
-                    background-color: #FF6A63;
+                    background-color: $secondary-color;
                     @media #{$large-up} {
                         top: 66%;
                     }
                     
                     .contentInfo{
                         padding-right: $masonry-brick-gutter;
-                        /*@media #{$large-up} {
-                            width: 70%;
-                            
-                            &:after {
-                                position: absolute;
-                                right: 0;
-                                top: $masonry-brick-gutter;
-                                width: 30%;
-                                content: "\e60f";
-                                font-family: 'icomoon';
-                                font-size: 5rem;
-                                color: #ffffff;
-                                text-align: center;
-                            }
-                        }*/
                         
                         h1,h2,h3,h4,h5,p,li,a{
-                            color: #ffffff;
+                            color: $black;
                             font-weight: 400;
                         }
                         h2{
@@ -101,7 +85,7 @@
                             text-transform: uppercase;
                             font-weight: 900;
                             font-style: italic;
-                            border-bottom: 1px solid #FFFFFF;
+                            border-bottom: 1px solid $black;
                             padding-bottom: 0.7rem;
                             @media #{$medium-up} {
                                 font-size: rem-calc(18px);
@@ -151,7 +135,7 @@
                             margin: 0;
                             padding: 12px;
                             text-align: right;
-                            background-color: #FF584F;
+                            background-color: darken($secondary-color, 10%);
                             
                             .button {
                                 margin: 0;
@@ -160,7 +144,7 @@
                                 font-weight: 700 !important;
                                 text-transform: uppercase;
                                 background-color: transparent;
-                                border: 2px solid #ffffff;
+                                border: 2px solid $black;
                             }
                         }
                     }
@@ -186,7 +170,7 @@
                 }
             }
             
-            &.facebook .containItem .contentBlock .contentInfo:before,
+            /*&.facebook .containItem .contentBlock .contentInfo:before,
             &.article-facebook .containItem .contentBlock .contentInfo:before{
                 content: "\e60e";
             }
@@ -197,7 +181,7 @@
             &.twitter .containItem .contentBlock .contentInfo:before,
             &.article-twitter .containItem .contentBlock .contentInfo:before{
                 content: "\e600";
-            }
+            }*/
 
             /*
             * Grid item variations from box sizing type

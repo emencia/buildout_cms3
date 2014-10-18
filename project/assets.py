@@ -98,18 +98,20 @@ AVALAIBLE_BUNDLES = {
         #"js/royalslider/dev/modules/jquery.rs.bullets.js",
         #"js/royalslider/dev/modules/jquery.rs.active-class.js",
         
-        ## Magnific popup (modal window/pop-in)
-        ##"js/jquery/magnific-popup.js",
+        # moment.js
+        "js/moment.js",
         
-        ## Masonry and socialaggregator libraries
-        ##"js/masonry/masonry.pkgd.js",
-        ##"js/socialaggregator.js",
+        # Magnific popup (modal window/pop-in)
+        "js/jquery/magnific-popup.js",
+        
+        # Masonry and socialaggregator libraries
+        "js/masonry/masonry.pkgd.js",
+        "js/socialaggregator.js",
         
         # Width/eight DOM element equalizer
         "js/jquery/equalize.js",
         
         ## Pikaday+moment.js for a datepicker
-        #"js/moment.js",
         #"js/pikaday.js",
         #"js/jquery/pikaday.jquery.js",
         
