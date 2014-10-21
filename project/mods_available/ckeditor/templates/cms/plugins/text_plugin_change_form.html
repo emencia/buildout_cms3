@@ -13,23 +13,16 @@ And finally, we includes some javascripts frontend needed to have a better rende
 {{ block.super }}
 <script>window.CKEDITOR_BASEPATH = "{{ CKEDITOR_BASEPATH }}";</script>
 <script src="{% static "cms/js/modules/cms.base.js" %}"></script>
-<script>
-(function($) {
-// CMS.$ will be passed for $
-$(document).ready(function () {
-    CMS.API.Helpers.csrf('{{ csrf_token }}');
-});
-})(CMS.$);
-</script>
-
 <script type="text/javascript" src="{{ STATIC_URL }}js/jquery/addons.js"></script>
-<script type="text/javascript">
-//<![CDATA[
-//     CKEDITOR.extraAllowedContent = { a: {attributes: 'boo'} };
-    CKEDITOR.on( 'instanceReady', function( ev ) {% templatetag openvariable %}ev.editor.dataProcessor.writer.selfClosingEnd = '>';{% templatetag closevariable %});
-    $(document).ready(function() {
-        $('#content-main img.background').swapImageToBackground();
-    });
-//]]>
-</script>
+<script type="text/javascript">//<![CDATA[
+    (function($) {
+        //     CKEDITOR.extraAllowedContent = { a: {attributes: 'boo'} };
+        //    CKEDITOR.on( 'instanceReady', function( ev ) {% templatetag openvariable %}ev.editor.dataProcessor.writer.selfClosingEnd = '>';{% templatetag closevariable %});
+        // CMS.$ will be passed for $
+        $(document).ready(function () {
+            CMS.API.Helpers.csrf('{{ csrf_token }}');
+            $('#content-main img.background').swapImageToBackground();
+        });
+    })(CMS.$);
+//]]></script>
 {% endblock %}

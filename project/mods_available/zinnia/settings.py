@@ -3,7 +3,9 @@
 INSTALLED_APPS = add_to_tuple(INSTALLED_APPS,
     'tagging',
     'zinnia',
-    'cmsplugin_zinnia')
+    'cmsplugin_zinnia',
+    'zinnia_ckeditor',
+)
 
 # List entries by ..
 ZINNIA_PAGINATION = 3

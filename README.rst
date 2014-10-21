@@ -13,8 +13,8 @@ So this buildout has started with a basic CMS structure to work then step by ste
            
            But be sure to check the `DjangoCMS documentation <http://docs.django-cms.org/en/latest/getting_started/integrate.html#up-and-running>`_ before to report bugs to ensure to know how the interface works, as it's very different from previous version.
 
-What's done
-===========
+What have been done
+===================
 
 * Basic buildout for default environment with config we use in Epaster projects;
 * Basic DjangoCMS 3 working with minimal stuff (default ckeditor, no plugins, etc..);
@@ -31,16 +31,8 @@ What's done
 * slideshows is enabled;
 * porticus is enabled;
 * socialaggregator is enabled;
-
-Passed
-======
-
-Some things that have been put on hold to be able to focus on more important components/features :
-
-* Active Codemirror in ckeditor;
-* Zinnia does not use ckeditor;
-
-This should be resolved when important components will be stabilized
+* Zinnia use ckeditor;
+* Active Codemirror plugin in ckeditor;
 
 Install
 =======

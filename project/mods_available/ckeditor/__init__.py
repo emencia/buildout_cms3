@@ -1,15 +1,16 @@
 # -*- coding: utf-8 -*-
 """
-Enable the customization of the `CKEditor`_ editor. It is enabled by default and used by `Django CKEditor`_ in the `cms`_ mod, and also in `zinnia`_.
+Enable and define customization for the `CKEditor`_ editor. It is enabled by default and used by `Django CKEditor`_ in the `cms`_ mod, and also in `zinnia`_.
 
-Use "djangocms_text_ckeditor", a djangocms plugin to use CKEditor (4.x) instead of the default one
+Note that DjangoCMS use it's own app named "djangocms_text_ckeditor", a djangocms plugin to use CKEditor (4.x).
 
-This mod contains some tricks to enable "django-filebrowser" usage with "image" plugin from CKEditor.
+But Zinnia use "django_ckeditor" that ship the same ckeditor but without cms addons.
+
+This mod contains configuration for all of them.
 
 And some contained patches/fixes :
 
-* the codemirror plugin that is not included in djangocms-text-ckeditor;
-* Some missed images for the "showblocks" plugin;
+* the codemirror plugin that is not included in any of the apps;
 * A system to use the "template" plugin (see views.EditorTemplatesListView for more usage details);
-* Some patch/overwrites to have content preview and editor more near to Foundation;
+* Some overriding to have content preview and editor more near to Foundation;
 """
