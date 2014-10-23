@@ -6,8 +6,8 @@ INSTALLED_APPS = add_to_tuple(INSTALLED_APPS,
     'taggit',
     'socialaggregator')
 
-# Optional specific formatter
-#RESSOURCE_FORMATTER = "project.mods_available.socialaggregator.formatter.RessourceFormatterCustom"
+# Specific formatter
+RESSOURCE_FORMATTER = "project.mods_available.socialaggregator.formatter.RessourceFormatterCustom"
 
 # Twitter access keys
 EDSA_TWITTER_TOKEN = 'FILLME'
@@ -63,8 +63,8 @@ EDSA_RESSOURCE_IMAGE_SIZE = 0
 # Various ressource fields choices
 EDSA_RESSOURCE_VIEW_SIZES = (
     ('default', gettext('default')),
-    ('small', gettext('small')),
     #('xsmall', gettext('Xsmall')),
+    ('small', gettext('small')),
     ('medium', gettext('medium')),
     ('large', gettext('large')),
     #('xlarge', gettext('Xlarge')),
@@ -93,4 +93,8 @@ EDSA_RESSOURCE_MEDIA_TYPE = (
 # Media content types to add to the ones from EDSA_PLUGINS
 EDSA_RESSOURCE_BASE_MEDIA_TYPES = [
     ('edsa_article', 'Article Event'),
+    ('edsa_article-infos', 'Article Infos'),
+    ('edsa_article-facebook', 'Article Facebook'),
+    ('edsa_article-twitter', 'Article Twitter'),
+    ('edsa_article-youtube', 'Article Youtube'),
 ]

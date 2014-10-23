@@ -8786,6 +8786,15 @@ img.divider {
 /* line 76, ../../../compass/scss/components/_socialaggregator.scss */
 #body_content #isocontainer #isogrid .grid-item .containItem .contentBlock .contentInfo {
   padding-right: 12px;
+  /*&:before{
+      position: absolute;
+      z-index: 5000;
+      bottom: $masonry-brick-gutter + 5px;
+      left: $masonry-brick-gutter;
+      content: "\e610";
+      font-family: 'icomoon';
+      font-size: 1.5rem;
+  }*/
 }
 /* line 79, ../../../compass/scss/components/_socialaggregator.scss */
 #body_content #isocontainer #isogrid .grid-item .containItem .contentBlock .contentInfo h1, #body_content #isocontainer #isogrid .grid-item .containItem .contentBlock .contentInfo h2, #body_content #isocontainer #isogrid .grid-item .containItem .contentBlock .contentInfo h3, #body_content #isocontainer #isogrid .grid-item .containItem .contentBlock .contentInfo h4, #body_content #isocontainer #isogrid .grid-item .containItem .contentBlock .contentInfo h5, #body_content #isocontainer #isogrid .grid-item .containItem .contentBlock .contentInfo p, #body_content #isocontainer #isogrid .grid-item .containItem .contentBlock .contentInfo li, #body_content #isocontainer #isogrid .grid-item .containItem .contentBlock .contentInfo a {
@@ -8843,16 +8852,6 @@ img.divider {
   #body_content #isocontainer #isogrid .grid-item .containItem .contentBlock .contentInfo p, #body_content #isocontainer #isogrid .grid-item .containItem .contentBlock .contentInfo li {
     font-size: 0.875rem;
   }
-}
-/* line 120, ../../../compass/scss/components/_socialaggregator.scss */
-#body_content #isocontainer #isogrid .grid-item .containItem .contentBlock .contentInfo:before {
-  position: absolute;
-  z-index: 5000;
-  bottom: 17px;
-  left: 12px;
-  content: "\e610";
-  font-family: 'icomoon';
-  font-size: 1.5rem;
 }
 /* line 130, ../../../compass/scss/components/_socialaggregator.scss */
 #body_content #isocontainer #isogrid .grid-item .containItem .contentBlock .contentInfo .button_wrap {

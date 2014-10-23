@@ -14,7 +14,7 @@ from project.utils.context_processors import get_site_metas
 from crispy_forms.helper import FormHelper
 from crispy_forms_foundation.layout import Layout, Field, Fieldset, Row, Column, HTML, ButtonHolder, ButtonHolderPanel, Submit, InlineField, InlineJustifiedField
 
-#from captcha.fields import ReCaptchaField
+from captcha.fields import ReCaptchaField
 
 from .models import CIVILITY_CHOICES, ContactBase, Contact
 
@@ -65,6 +65,8 @@ class ContactFormBase(ModelForm):
 
 class ContactForm(ContactFormBase):
     """Contact Form"""
+    captcha = ReCaptchaField(attrs={'theme' : 'clean'})
+    
     def __init__(self, *args, **kwargs):
         super(ContactFormBase, self).__init__(*args, **kwargs)
         

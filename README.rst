@@ -34,6 +34,13 @@ What have been done
 * Zinnia use ckeditor;
 * Active Codemirror plugin in ckeditor;
 
+Notes
+=====
+
+* Should see to use filebrowser instead of django-filer that is not really as good as FB was, plus filebrowser-no-grapelli package is maintained and packaged again !
+* Ckeditor in Zinnia does not have the exact same display than the ckeditor in CMS;
+* ReCaptcha 1.0.2 usage in contact form seems broken, the captcha image is not added to the DOM despite it is effectively loaded;
+
 Install
 =======
 
