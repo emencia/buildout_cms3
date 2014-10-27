@@ -16,15 +16,16 @@ So this buildout has started with a basic CMS structure to work then step by ste
 What have been done
 ===================
 
-* Basic buildout for default environment with config we use in Epaster projects;
-* Basic DjangoCMS 3 working with minimal stuff (default ckeditor, no plugins, etc..);
+* Buildout configs for all environment with config options we use in Epaster projects;
+* DjangoCMS 3 is working with all stuff (ckeditor, plugins, etc..);
 * Basic mods like emencia_utils and site_metas;
-* Use Django-filer to manage images instead of filebrowser and its cms plugin is enabled;
+* Use a recent "django-filebrowser-no-grapelli" version in all apps;
 * Enables debug-toolbar;
-* Re-enabled ckeditor customization;
+* Enabled ckeditor customization;
 * Zinnia and its cms plugin are enabled;
 * Accounts is enabled;
 * Contact form is enabled;
+* recaptcha mod is enabled;
 * admin-tools is enabled;
 * sitemap is enabled;
 * staticpages is enabled;
@@ -33,17 +34,18 @@ What have been done
 * socialaggregator is enabled;
 * Zinnia use ckeditor;
 * Active Codemirror plugin in ckeditor;
+* googletools is enableed;
 
-Notes
-=====
-
-* Should see to use filebrowser instead of django-filer that is not really as good as FB was, plus filebrowser-no-grapelli package is maintained and packaged again !
-* Forgotted to re-enabled google-tools with the new custom template to use Google Universal API;
-* Ckeditor in Zinnia does not have the exact same display than the ckeditor in CMS;
-* ReCaptcha 1.0.2 usage in contact form seems broken, the captcha image is not added to the DOM despite it is effectively loaded;
+To resume, all things are back and working. The only app that have not been enabled is our custom cms snippet plugin, we will see in future if it's required.
 
 Install
 =======
 
 This is our common procedure, so you just have to use the common way with ``make install`` and everything is installed.
 
+Django 1.7
+==========
+
+For now, this is not ready, 1.7 support in DjangoCMS is noted "experimental" and some other apps does not seems to support it, mostly like django-googletools that is unmaintened.
+
+We must wait some months to watch again for a full and clean 1.7 support everywhere.

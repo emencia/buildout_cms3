@@ -9,5 +9,6 @@ INTERNAL_IPS = ('192.168.0.112',)
 # Test emails by looking at the console
 EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
 
-# Enable raising exception from django-filer
-FILER_DEBUG = True
+# googletools is disabled when DEBUG=True, you can force to enable it with 
+# uncommenting this line
+#GOOGLETOOLS_ENABLED = True

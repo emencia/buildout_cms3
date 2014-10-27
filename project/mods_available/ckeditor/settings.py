@@ -38,7 +38,6 @@ CKEDITOR_CONFIGS = CKEDITOR_SETTINGS = {
         ['Undo', 'Redo'],
         ['cmsplugins', '-', 'ShowBlocks'],
         ['Format', 'Styles'],
-        #['RemoveFormat', '-', '', 'PasteText', 'PasteFromWord'],
         ['RemoveFormat', '', '', '', ''],
         ['Maximize', ''],
         '/',
@@ -51,7 +50,6 @@ CKEDITOR_CONFIGS = CKEDITOR_SETTINGS = {
         # , 'Iframe' # Disabled because djangocms seems to sanitize it from the posted HTML
     ],
     # Zinnia use a contained toolbar that does not herit from defaults, so we much mirror them
-    # TODO: This is not DRY at all, try to mirroring without to repeat
     'zinnia-content': {
         # Wider editor
         'width': '100%',
@@ -61,7 +59,6 @@ CKEDITOR_CONFIGS = CKEDITOR_SETTINGS = {
         'toolbar_Zinnia': [
             ['Undo', 'Redo'],
             ['Format', 'Styles', '-', 'ShowBlocks'],
-            #['RemoveFormat', '-', '', 'PasteText', 'PasteFromWord'],
             ['RemoveFormat', '', '', '', ''],
             '/',
             ['Maximize', ''],
