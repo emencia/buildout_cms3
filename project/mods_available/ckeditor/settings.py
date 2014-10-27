@@ -26,6 +26,8 @@ CKEDITOR_CONFIGS = CKEDITOR_SETTINGS = {
     'justifyClasses': [ 'text-left', 'text-center', 'text-right', 'AlignJustify' ],
     # Uncheck the checkbox that replace whole content with the selected template (if any)
     'templates_replaceContent': False,
+    # Link to use for the link "Browse server"
+    'filebrowserBrowseUrl': "/admin/filebrowser/browse?pop=3",
     # URLs for Javascripts that define content templates
     'templates_files': [
         '/ckeditor/editor_site_templates.js'
@@ -49,6 +51,7 @@ CKEDITOR_CONFIGS = CKEDITOR_SETTINGS = {
         # , 'Iframe' # Disabled because djangocms seems to sanitize it from the posted HTML
     ],
     # Zinnia use a contained toolbar that does not herit from defaults, so we much mirror them
+    # TODO: This is not DRY at all, try to mirroring without to repeat
     'zinnia-content': {
         # Wider editor
         'width': '100%',
@@ -78,6 +81,7 @@ CKEDITOR_CONFIGS = CKEDITOR_SETTINGS = {
         'extraPlugins': 'blockquote,codemirror,div,justify,magicline,showblocks,templates',
         'justifyClasses': [ 'text-left', 'text-center', 'text-right', 'AlignJustify' ],
         'templates_replaceContent': False,
+        'filebrowserBrowseUrl': "/admin/filebrowser/browse?pop=3",
         'templates_files': [
             '/ckeditor/editor_site_templates.js'
         ],

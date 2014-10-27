@@ -32,8 +32,22 @@ class CustomMenu(Menu):
                 _('Administration'),
                 models=('django.contrib.*',)
             ),
-            #LanguageMenuItem(),
         ]
+        
+        # Add menu entry for Filebrowser if installed
+        try:
+            import filebrowser
+        except ImportError:
+            pass
+        else:
+            self.children += [
+                items.MenuItem(_('Filebrowser'), reverse('filebrowser:fb_browse')),
+            ]
+        
+        # Add language switcher menu within admin
+        #self.children += [
+            #LanguageMenuItem(),
+        #]
 
     def init_with_context(self, context):
         """
