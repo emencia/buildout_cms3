@@ -6,7 +6,7 @@
     <meta charset="utf-8">
     <title>{% block head_title %}{{ SITE.name }}{% endblock %}</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    {% comment %}<link rel="shortcut icon" type="image/x-icon" href="{{ STATIC_URL }}favicon.ico">{% endcomment %}
+    <link rel="shortcut icon" type="image/x-icon" href="{{ STATIC_URL }}favicon.ico">
     {% comment %}<link href="http://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet" type="text/css">{% endcomment %}
     {% block header_content %}{% spaceless %}
         {% block head_metas %}
