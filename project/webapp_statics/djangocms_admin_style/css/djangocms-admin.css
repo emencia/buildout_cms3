@@ -1,0 +1,2790 @@
+/* Dimensions */
+/* inactive */
+/* Silver */
+/* Blue */
+/* Orange */
+/* Red */
+/* Green */
+/* Black */
+/* Paddings */
+/* Template Editor */
+/* line 14, ../../../../compass/admin_style/libs/html5-boilerplate/_reset.scss */
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 12px;
+  vertical-align: baseline;
+}
+
+/* line 23, ../../../../compass/admin_style/libs/html5-boilerplate/_reset.scss */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+/* line 27, ../../../../compass/admin_style/libs/html5-boilerplate/_reset.scss */
+blockquote, q {
+  quotes: none;
+}
+
+/* line 30, ../../../../compass/admin_style/libs/html5-boilerplate/_reset.scss */
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+/* line 32, ../../../../compass/admin_style/libs/html5-boilerplate/_reset.scss */
+ins {
+  background-color: #ff9;
+  color: #000;
+  text-decoration: none;
+}
+
+/* line 34, ../../../../compass/admin_style/libs/html5-boilerplate/_reset.scss */
+mark {
+  background-color: #ff9;
+  color: #000;
+  font-style: italic;
+  font-weight: bold;
+}
+
+/* line 36, ../../../../compass/admin_style/libs/html5-boilerplate/_reset.scss */
+del {
+  text-decoration: line-through;
+}
+
+/* line 38, ../../../../compass/admin_style/libs/html5-boilerplate/_reset.scss */
+abbr[title], dfn[title] {
+  border-bottom: 1px dotted;
+  cursor: help;
+}
+
+/* line 40, ../../../../compass/admin_style/libs/html5-boilerplate/_reset.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 42, ../../../../compass/admin_style/libs/html5-boilerplate/_reset.scss */
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #ccc;
+  margin: 1em 0;
+  padding: 0;
+}
+
+/* line 11, ../../../../compass/admin_style/libs/html5-boilerplate/_fonts.scss */
+body {
+  font-size: 12px;
+  font-family: "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+  line-height: 1.231;
+  *font-size: small;
+}
+
+/* line 20, ../../../../compass/admin_style/libs/html5-boilerplate/_fonts.scss */
+pre, code, kbd, samp {
+  font-family: monospace, sans-serif;
+}
+
+/* line 15, ../../../../compass/admin_style/libs/html5-boilerplate/_styles.scss */
+html {
+  overflow-y: scroll;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+}
+
+/* line 17, ../../../../compass/admin_style/libs/html5-boilerplate/_styles.scss */
+ul, ol {
+  margin-left: 2em;
+}
+
+/* line 18, ../../../../compass/admin_style/libs/html5-boilerplate/_styles.scss */
+ol {
+  list-style-type: decimal;
+}
+
+/* line 20, ../../../../compass/admin_style/libs/html5-boilerplate/_styles.scss */
+td {
+  vertical-align: top;
+}
+
+/* line 22, ../../../../compass/admin_style/libs/html5-boilerplate/_styles.scss */
+sub {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  bottom: -0.25em;
+}
+
+/* line 24, ../../../../compass/admin_style/libs/html5-boilerplate/_styles.scss */
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  top: -0.5em;
+}
+
+/* line 53, ../../../../compass/admin_style/libs/html5-boilerplate/_styles.scss */
+a:hover, a:active {
+  outline: none;
+}
+
+/* line 58, ../../../../compass/admin_style/libs/html5-boilerplate/_styles.scss */
+pre {
+  white-space: pre;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  padding: 15px;
+}
+
+/* line 71, ../../../../compass/admin_style/libs/html5-boilerplate/_styles.scss */
+label, input[type="button"], input[type="submit"], input[type="image"], button {
+  cursor: pointer;
+}
+
+/* line 80, ../../../../compass/admin_style/libs/html5-boilerplate/_styles.scss */
+button, input, select, textarea {
+  width: auto;
+  overflow: visible;
+  margin: 0;
+  font-size: 100%;
+  font-family: sans-serif;
+  vertical-align: baseline;
+}
+
+/* line 84, ../../../../compass/admin_style/libs/html5-boilerplate/_styles.scss */
+textarea {
+  overflow: auto;
+  vertical-align: text-top;
+}
+
+/* line 88, ../../../../compass/admin_style/libs/html5-boilerplate/_styles.scss */
+input::-moz-focus-inner,
+button::-moz-focus-inner {
+  border: 0;
+  padding: 0;
+}
+
+/* line 105, ../../../../compass/admin_style/libs/html5-boilerplate/_styles.scss */
+a:link {
+  -webkit-tap-highlight-color: none;
+}
+
+/* line 118, ../../../../compass/admin_style/libs/html5-boilerplate/_styles.scss */
+.ie7 img {
+  -ms-interpolation-mode: bicubic;
+}
+
+/* line 120, ../../../../compass/admin_style/libs/html5-boilerplate/_styles.scss */
+.ie6 legend, .ie7 legend {
+  margin-left: -7px;
+}
+
+/* line 125, ../../../../compass/admin_style/libs/html5-boilerplate/_styles.scss */
+nav ul, nav li {
+  margin: 0;
+  list-style: none;
+  list-style-image: none;
+}
+
+/* line 10, ../../../../compass/admin_style/libs/html5-boilerplate/_helpers.scss */
+.ir {
+  text-indent: -119988px;
+  overflow: hidden;
+  text-align: left;
+  direction: ltr;
+  background-repeat: no-repeat;
+}
+
+/* line 12, ../../../../compass/admin_style/libs/html5-boilerplate/_helpers.scss */
+.hidden {
+  display: none;
+  visibility: hidden;
+}
+
+/* line 14, ../../../../compass/admin_style/libs/html5-boilerplate/_helpers.scss */
+.visuallyhidden {
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+}
+/* line 50, ../../../../compass/admin_style/libs/html5-boilerplate/_helpers.scss */
+.visuallyhidden.focusable:active, .visuallyhidden.focusable:focus {
+  clip: auto;
+  height: auto;
+  margin: 0;
+  overflow: visible;
+  position: static;
+  width: auto;
+}
+
+/* line 16, ../../../../compass/admin_style/libs/html5-boilerplate/_helpers.scss */
+.clearfix {
+  zoom: 1;
+}
+/* line 61, ../../../../compass/admin_style/libs/html5-boilerplate/_helpers.scss */
+.clearfix:before, .clearfix:after {
+  content: "";
+  display: table;
+}
+/* line 62, ../../../../compass/admin_style/libs/html5-boilerplate/_helpers.scss */
+.clearfix:after {
+  clear: both;
+}
+
+/* line 3, ../../../../compass/admin_style/partials/_base.scss */
+body {
+  background: url("../img/bg-pattern-light.jpg") #efefef repeat !important;
+}
+
+/* line 5, ../../../../compass/admin_style/partials/_base.scss */
+body, select, input, textarea {
+  color: #444444;
+}
+
+/* line 7, ../../../../compass/admin_style/partials/_base.scss */
+h1 {
+  font-size: 150%;
+  color: #666666;
+  font-weight: bold;
+  margin: 20px 10px 10px;
+}
+
+/* line 8, ../../../../compass/admin_style/partials/_base.scss */
+h2 {
+  font-size: 130%;
+  color: #666666;
+  font-weight: bold;
+  line-height: 1.75em;
+}
+
+/* line 9, ../../../../compass/admin_style/partials/_base.scss */
+h3 {
+  font-size: 120%;
+  color: #444444;
+  font-weight: bold;
+}
+
+/* line 10, ../../../../compass/admin_style/partials/_base.scss */
+h4 {
+  font-size: 110%;
+  color: #666666;
+  font-weight: bold;
+}
+
+/* line 11, ../../../../compass/admin_style/partials/_base.scss */
+h5 {
+  font-size: 100%;
+  color: #444444;
+}
+
+/* line 12, ../../../../compass/admin_style/partials/_base.scss */
+h6 {
+  font-size: 100%;
+  color: #666666;
+}
+
+/* line 14, ../../../../compass/admin_style/partials/_base.scss */
+a, a:link {
+  color: #029eee;
+  text-decoration: none;
+}
+/* line 17, ../../../../compass/admin_style/partials/_base.scss */
+a:visited, a:link:visited {
+  color: #029eee;
+}
+/* line 18, ../../../../compass/admin_style/partials/_base.scss */
+a:hover, a:link:hover {
+  color: #2070b3;
+  text-decoration: underline;
+}
+/* line 19, ../../../../compass/admin_style/partials/_base.scss */
+a:active, a:link:active {
+  color: #2070b3;
+}
+
+/* line 22, ../../../../compass/admin_style/partials/_base.scss */
+p {
+  font-weight: normal;
+  margin-bottom: 6px;
+}
+
+/* line 24, ../../../../compass/admin_style/partials/_base.scss */
+code {
+  font-family: "Bitstream Vera Sans Mono", Monaco, "Courier New", Courier, monospace;
+  background: inherit;
+  color: #666;
+  font-size: 11px;
+}
+/* line 27, ../../../../compass/admin_style/partials/_base.scss */
+code strong {
+  color: #930;
+}
+
+/* line 30, ../../../../compass/admin_style/partials/_base.scss */
+pre {
+  font-family: "Bitstream Vera Sans Mono", Monaco, "Courier New", Courier, monospace;
+  background: inherit;
+  color: #666;
+  font-size: 11px;
+}
+/* line 33, ../../../../compass/admin_style/partials/_base.scss */
+pre.literal-block {
+  background: #eee;
+}
+
+/* line 36, ../../../../compass/admin_style/partials/_base.scss */
+div hr {
+  background: #dddddd;
+  margin: 20px 0;
+  border: none;
+}
+
+/* line 38, ../../../../compass/admin_style/partials/_base.scss */
+strong {
+  font-weight: bold;
+}
+
+/* line 39, ../../../../compass/admin_style/partials/_base.scss */
+.small, small {
+  font-size: 85%;
+  margin-top: 0;
+}
+
+/* line 41, ../../../../compass/admin_style/partials/_base.scss */
+.clearfix:after {
+  content: ".";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+
+/* line 2, ../../../../compass/admin_style/partials/_forms.scss */
+form button, form input, form select, form textarea {
+  margin: 2px 0;
+  font-size: 13px;
+}
+/* line 3, ../../../../compass/admin_style/partials/_forms.scss */
+form small {
+  color: #888888;
+}
+/* line 4, ../../../../compass/admin_style/partials/_forms.scss */
+form hr {
+  margin: 5px 0;
+}
+/* line 5, ../../../../compass/admin_style/partials/_forms.scss */
+form fieldset {
+  vertical-align: middle;
+  line-height: 2em;
+}
+/* line 6, ../../../../compass/admin_style/partials/_forms.scss */
+form fieldset.collapsed h2 {
+  background-image: none;
+  border-bottom: none;
+  margin-bottom: 0;
+  padding-bottom: 5px;
+}
+/* line 7, ../../../../compass/admin_style/partials/_forms.scss */
+form label {
+  word-wrap: break-word;
+  color: #888888;
+  line-height: 18px;
+  display: inline-block;
+  /*min-width: 160px;*/
+}
+/* line 9, ../../../../compass/admin_style/partials/_forms.scss */
+form label.required {
+  font-weight: bold;
+}
+/* line 12, ../../../../compass/admin_style/partials/_forms.scss */
+form input, form textarea {
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -o-border-radius: 3px;
+  border-radius: 3px;
+  border: 1px solid #cccccc;
+  color: #555555;
+  padding: 6px 5px;
+  outline: none;
+}
+/* line 14, ../../../../compass/admin_style/partials/_forms.scss */
+form input[type="checkbox"], form input[type="radio"] {
+  border: 0;
+  display: inline;
+  width: auto;
+  margin-right: 6px;
+}
+/* line 15, ../../../../compass/admin_style/partials/_forms.scss */
+form input[type="file"] {
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -o-border-radius: 3px;
+  border-radius: 3px;
+  border: 1px solid #cccccc;
+  color: #555555;
+  padding: 6px 5px;
+  outline: none;
+}
+/* line 17, ../../../../compass/admin_style/partials/_forms.scss */
+form select {
+  font-weight: normal;
+}
+/* line 18, ../../../../compass/admin_style/partials/_forms.scss */
+form small {
+  margin-left: 15px;
+}
+/* line 19, ../../../../compass/admin_style/partials/_forms.scss */
+form .form-controls {
+  text-align: right;
+  margin: 15px 0 0 0;
+}
+/* line 21, ../../../../compass/admin_style/partials/_forms.scss */
+form .form-controls p {
+  margin-top: 6px;
+}
+/* line 23, ../../../../compass/admin_style/partials/_forms.scss */
+form .input-list {
+  display: inline-block;
+  vertical-align: top;
+  line-height: 20px;
+}
+/* line 25, ../../../../compass/admin_style/partials/_forms.scss */
+form .extra .right {
+  float: right;
+  margin-right: 10px;
+}
+/* line 29, ../../../../compass/admin_style/partials/_forms.scss */
+form .form-row {
+  border-bottom-color: #f3f3f3;
+}
+/* line 30, ../../../../compass/admin_style/partials/_forms.scss */
+form .form-row:last-child {
+  border-bottom-color: transparent;
+}
+
+/* line 32, ../../../../compass/admin_style/partials/_forms.scss */
+.form-row input, .form-row textarea {
+  width: 250px;
+}
+
+/* line 33, ../../../../compass/admin_style/partials/_forms.scss */
+.form-row .select2-container {
+  min-width: 262px;
+}
+
+/* line 34, ../../../../compass/admin_style/partials/_forms.scss */
+.inline-group .form-row input, .inline-group .form-row textarea {
+  width: auto;
+}
+
+/* line 38, ../../../../compass/admin_style/partials/_forms.scss */
+input:invalid, textarea:invalid {
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -o-border-radius: 3px;
+  border-radius: 3px;
+}
+
+/* line 42, ../../../../compass/admin_style/partials/_forms.scss */
+.no-boxshadow input:invalid,
+.no-boxshadow textarea:invalid {
+  background-color: #f0dddd;
+}
+
+/* line 45, ../../../../compass/admin_style/partials/_forms.scss */
+button {
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -o-border-radius: 3px;
+  border-radius: 3px;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ffffff), color-stop(100%, #efefef)) !important;
+  background-image: -webkit-linear-gradient(#ffffff, #efefef) !important;
+  background-image: -moz-linear-gradient(#ffffff, #efefef) !important;
+  background-image: -o-linear-gradient(#ffffff, #efefef) !important;
+  background-image: linear-gradient(#ffffff, #efefef) !important;
+  -webkit-box-shadow: #efefef 0 0 2px inset !important;
+  -moz-box-shadow: #efefef 0 0 2px inset !important;
+  box-shadow: #efefef 0 0 2px inset !important;
+  background-color: white !important;
+  border: 1px solid #efefef !important;
+  border-bottom: 1px solid #cccccc !important;
+  color: #555555 !important;
+  font-weight: bolder !important;
+  font-size: 12px !important;
+  line-height: 15px !important;
+  overflow: visible;
+  padding: 5px 10px 5px !important;
+  text-decoration: none !important;
+  width: auto;
+}
+/* line 20, ../../../../compass/admin_style/partials/_mixins.scss */
+button:hover {
+  background: white !important;
+}
+/* line 34, ../../../../compass/admin_style/partials/_mixins.scss */
+button.small {
+  padding: 3px 8px 4px !important;
+}
+/* line 37, ../../../../compass/admin_style/partials/_mixins.scss */
+button:hover, button:active, button.select, button:visited {
+  background: white;
+  color: #555555;
+  text-decoration: none;
+}
+/* line 42, ../../../../compass/admin_style/partials/_mixins.scss */
+button.animate {
+  -webkit-background-size: 100% 400%;
+  -moz-background-size: 100% 400%;
+  -o-background-size: 100% 400%;
+  background-size: 100% 400%;
+  background-image: -webkit-linear-gradient(-45deg, rgba(255, 255, 255, 0.2) 25%, rgba(255, 255, 255, 0) 25%, rgba(255, 255, 255, 0) 50%, rgba(255, 255, 255, 0.2) 50%, rgba(255, 255, 255, 0.2) 75%, rgba(255, 255, 255, 0) 75%, rgba(255, 255, 255, 0));
+  background-image: -moz-linear-gradient(-45deg, rgba(255, 255, 255, 0.2) 25%, rgba(255, 255, 255, 0) 25%, rgba(255, 255, 255, 0) 50%, rgba(255, 255, 255, 0.2) 50%, rgba(255, 255, 255, 0.2) 75%, rgba(255, 255, 255, 0) 75%, rgba(255, 255, 255, 0));
+  background-image: -o-linear-gradient(-45deg, rgba(255, 255, 255, 0.2) 25%, rgba(255, 255, 255, 0) 25%, rgba(255, 255, 255, 0) 50%, rgba(255, 255, 255, 0.2) 50%, rgba(255, 255, 255, 0.2) 75%, rgba(255, 255, 255, 0) 75%, rgba(255, 255, 255, 0));
+  background-image: linear-gradient(-45deg, rgba(255, 255, 255, 0.2) 25%, rgba(255, 255, 255, 0) 25%, rgba(255, 255, 255, 0) 50%, rgba(255, 255, 255, 0.2) 50%, rgba(255, 255, 255, 0.2) 75%, rgba(255, 255, 255, 0) 75%, rgba(255, 255, 255, 0));
+}
+
+/* line 46, ../../../../compass/admin_style/partials/_forms.scss */
+input[type="submit"], input[type="button"] {
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -o-border-radius: 3px;
+  border-radius: 3px;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ffffff), color-stop(100%, #efefef)) !important;
+  background-image: -webkit-linear-gradient(#ffffff, #efefef) !important;
+  background-image: -moz-linear-gradient(#ffffff, #efefef) !important;
+  background-image: -o-linear-gradient(#ffffff, #efefef) !important;
+  background-image: linear-gradient(#ffffff, #efefef) !important;
+  -webkit-box-shadow: #efefef 0 0 2px inset !important;
+  -moz-box-shadow: #efefef 0 0 2px inset !important;
+  box-shadow: #efefef 0 0 2px inset !important;
+  background-color: white !important;
+  border: 1px solid #efefef !important;
+  border-bottom: 1px solid #cccccc !important;
+  color: #555555 !important;
+  font-weight: bolder !important;
+  font-size: 12px !important;
+  line-height: 15px !important;
+  overflow: visible;
+  padding: 5px 10px 5px !important;
+  text-decoration: none !important;
+  width: auto;
+  padding: 8px 10px !important;
+}
+/* line 20, ../../../../compass/admin_style/partials/_mixins.scss */
+input[type="submit"]:hover, input[type="button"]:hover {
+  background: white !important;
+}
+/* line 34, ../../../../compass/admin_style/partials/_mixins.scss */
+input[type="submit"].small, input[type="button"].small {
+  padding: 3px 8px 4px !important;
+}
+/* line 37, ../../../../compass/admin_style/partials/_mixins.scss */
+input[type="submit"]:hover, input[type="submit"]:active, input[type="submit"].select, input[type="submit"]:visited, input[type="button"]:hover, input[type="button"]:active, input[type="button"].select, input[type="button"]:visited {
+  background: white;
+  color: #555555;
+  text-decoration: none;
+}
+/* line 42, ../../../../compass/admin_style/partials/_mixins.scss */
+input[type="submit"].animate, input[type="button"].animate {
+  -webkit-background-size: 100% 400%;
+  -moz-background-size: 100% 400%;
+  -o-background-size: 100% 400%;
+  background-size: 100% 400%;
+  background-image: -webkit-linear-gradient(-45deg, rgba(255, 255, 255, 0.2) 25%, rgba(255, 255, 255, 0) 25%, rgba(255, 255, 255, 0) 50%, rgba(255, 255, 255, 0.2) 50%, rgba(255, 255, 255, 0.2) 75%, rgba(255, 255, 255, 0) 75%, rgba(255, 255, 255, 0));
+  background-image: -moz-linear-gradient(-45deg, rgba(255, 255, 255, 0.2) 25%, rgba(255, 255, 255, 0) 25%, rgba(255, 255, 255, 0) 50%, rgba(255, 255, 255, 0.2) 50%, rgba(255, 255, 255, 0.2) 75%, rgba(255, 255, 255, 0) 75%, rgba(255, 255, 255, 0));
+  background-image: -o-linear-gradient(-45deg, rgba(255, 255, 255, 0.2) 25%, rgba(255, 255, 255, 0) 25%, rgba(255, 255, 255, 0) 50%, rgba(255, 255, 255, 0.2) 50%, rgba(255, 255, 255, 0.2) 75%, rgba(255, 255, 255, 0) 75%, rgba(255, 255, 255, 0));
+  background-image: linear-gradient(-45deg, rgba(255, 255, 255, 0.2) 25%, rgba(255, 255, 255, 0) 25%, rgba(255, 255, 255, 0) 50%, rgba(255, 255, 255, 0.2) 50%, rgba(255, 255, 255, 0.2) 75%, rgba(255, 255, 255, 0) 75%, rgba(255, 255, 255, 0));
+}
+/* line 48, ../../../../compass/admin_style/partials/_forms.scss */
+input[type="submit"].default, input[type="button"].default {
+  -webkit-box-shadow: #5bbdee 0 0 2px inset !important;
+  -moz-box-shadow: #5bbdee 0 0 2px inset !important;
+  box-shadow: #5bbdee 0 0 2px inset !important;
+  background-color: #029eee !important;
+  background-image: none !important;
+  border: 1px solid #5bbdee !important;
+  border-bottom: 1px solid #0072ac !important;
+  color: white !important;
+  padding: 7px 10px !important;
+  margin-top: 1px;
+}
+/* line 48, ../../../../compass/admin_style/partials/_mixins.scss */
+input[type="submit"].default, input[type="submit"].default:visited, input[type="button"].default, input[type="button"].default:visited {
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #5bbdee), color-stop(100%, #029eee)) !important;
+  background-image: -webkit-linear-gradient(#5bbdee, #029eee) !important;
+  background-image: -moz-linear-gradient(#5bbdee, #029eee) !important;
+  background-image: -o-linear-gradient(#5bbdee, #029eee) !important;
+  background-image: linear-gradient(#5bbdee, #029eee) !important;
+}
+/* line 56, ../../../../compass/admin_style/partials/_mixins.scss */
+input[type="submit"].default:hover, input[type="submit"].default:focus, input[type="button"].default:hover, input[type="button"].default:focus {
+  background: #5bbdee !important;
+  color: white !important;
+}
+/* line 60, ../../../../compass/admin_style/partials/_mixins.scss */
+input[type="submit"].default:active, input[type="button"].default:active {
+  background: #029eee !important;
+}
+/* line 63, ../../../../compass/admin_style/partials/_mixins.scss */
+input[type="submit"].default.animate, input[type="button"].default.animate {
+  -webkit-background-size: 100% 400%;
+  -moz-background-size: 100% 400%;
+  -o-background-size: 100% 400%;
+  background-size: 100% 400%;
+  background-image: -webkit-linear-gradient(-45deg, rgba(255, 255, 255, 0.1) 25%, rgba(255, 255, 255, 0) 25%, rgba(255, 255, 255, 0) 50%, rgba(255, 255, 255, 0.1) 50%, rgba(255, 255, 255, 0.1) 75%, rgba(255, 255, 255, 0) 75%, rgba(255, 255, 255, 0));
+  background-image: -moz-linear-gradient(-45deg, rgba(255, 255, 255, 0.1) 25%, rgba(255, 255, 255, 0) 25%, rgba(255, 255, 255, 0) 50%, rgba(255, 255, 255, 0.1) 50%, rgba(255, 255, 255, 0.1) 75%, rgba(255, 255, 255, 0) 75%, rgba(255, 255, 255, 0));
+  background-image: -o-linear-gradient(-45deg, rgba(255, 255, 255, 0.1) 25%, rgba(255, 255, 255, 0) 25%, rgba(255, 255, 255, 0) 50%, rgba(255, 255, 255, 0.1) 50%, rgba(255, 255, 255, 0.1) 75%, rgba(255, 255, 255, 0) 75%, rgba(255, 255, 255, 0));
+  background-image: linear-gradient(-45deg, rgba(255, 255, 255, 0.1) 25%, rgba(255, 255, 255, 0) 25%, rgba(255, 255, 255, 0) 50%, rgba(255, 255, 255, 0.1) 50%, rgba(255, 255, 255, 0.1) 75%, rgba(255, 255, 255, 0) 75%, rgba(255, 255, 255, 0));
+}
+
+/* line 50, ../../../../compass/admin_style/partials/_forms.scss */
+a.button {
+  text-decoration: none;
+  cursor: pointer;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -o-border-radius: 3px;
+  border-radius: 3px;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ffffff), color-stop(100%, #efefef)) !important;
+  background-image: -webkit-linear-gradient(#ffffff, #efefef) !important;
+  background-image: -moz-linear-gradient(#ffffff, #efefef) !important;
+  background-image: -o-linear-gradient(#ffffff, #efefef) !important;
+  background-image: linear-gradient(#ffffff, #efefef) !important;
+  -webkit-box-shadow: #efefef 0 0 2px inset !important;
+  -moz-box-shadow: #efefef 0 0 2px inset !important;
+  box-shadow: #efefef 0 0 2px inset !important;
+  background-color: white !important;
+  border: 1px solid #efefef !important;
+  border-bottom: 1px solid #cccccc !important;
+  color: #555555 !important;
+  font-weight: bolder !important;
+  font-size: 12px !important;
+  line-height: 15px !important;
+  overflow: visible;
+  padding: 5px 10px 5px !important;
+  text-decoration: none !important;
+  width: auto;
+}
+/* line 20, ../../../../compass/admin_style/partials/_mixins.scss */
+a.button:hover {
+  background: white !important;
+}
+/* line 34, ../../../../compass/admin_style/partials/_mixins.scss */
+a.button.small {
+  padding: 3px 8px 4px !important;
+}
+/* line 37, ../../../../compass/admin_style/partials/_mixins.scss */
+a.button:hover, a.button:active, a.button.select, a.button:visited {
+  background: white;
+  color: #555555;
+  text-decoration: none;
+}
+/* line 42, ../../../../compass/admin_style/partials/_mixins.scss */
+a.button.animate {
+  -webkit-background-size: 100% 400%;
+  -moz-background-size: 100% 400%;
+  -o-background-size: 100% 400%;
+  background-size: 100% 400%;
+  background-image: -webkit-linear-gradient(-45deg, rgba(255, 255, 255, 0.2) 25%, rgba(255, 255, 255, 0) 25%, rgba(255, 255, 255, 0) 50%, rgba(255, 255, 255, 0.2) 50%, rgba(255, 255, 255, 0.2) 75%, rgba(255, 255, 255, 0) 75%, rgba(255, 255, 255, 0));
+  background-image: -moz-linear-gradient(-45deg, rgba(255, 255, 255, 0.2) 25%, rgba(255, 255, 255, 0) 25%, rgba(255, 255, 255, 0) 50%, rgba(255, 255, 255, 0.2) 50%, rgba(255, 255, 255, 0.2) 75%, rgba(255, 255, 255, 0) 75%, rgba(255, 255, 255, 0));
+  background-image: -o-linear-gradient(-45deg, rgba(255, 255, 255, 0.2) 25%, rgba(255, 255, 255, 0) 25%, rgba(255, 255, 255, 0) 50%, rgba(255, 255, 255, 0.2) 50%, rgba(255, 255, 255, 0.2) 75%, rgba(255, 255, 255, 0) 75%, rgba(255, 255, 255, 0));
+  background-image: linear-gradient(-45deg, rgba(255, 255, 255, 0.2) 25%, rgba(255, 255, 255, 0) 25%, rgba(255, 255, 255, 0) 50%, rgba(255, 255, 255, 0.2) 50%, rgba(255, 255, 255, 0.2) 75%, rgba(255, 255, 255, 0) 75%, rgba(255, 255, 255, 0));
+}
+/* line 52, ../../../../compass/admin_style/partials/_forms.scss */
+a.button.tab {
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  -ms-border-radius: 0;
+  -o-border-radius: 0;
+  border-radius: 0;
+}
+
+/* line 57, ../../../../compass/admin_style/partials/_forms.scss */
+.form-row p.datetime {
+  line-height: 36px;
+}
+
+/* line 63, ../../../../compass/admin_style/partials/_forms.scss */
+div.calendar table caption {
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #595f65), color-stop(100%, #464b50));
+  background-image: -webkit-linear-gradient(#595f65, #464b50);
+  background-image: -moz-linear-gradient(#595f65, #464b50);
+  background-image: -o-linear-gradient(#595f65, #464b50);
+  background-image: linear-gradient(#595f65, #464b50);
+  background-color: #595f65;
+  color: white !important;
+  margin: 0;
+  -moz-border-radius-topleft: 3px;
+  -webkit-border-top-left-radius: 3px;
+  border-top-left-radius: 3px;
+  -moz-border-radius-topright: 3px;
+  -webkit-border-top-right-radius: 3px;
+  border-top-right-radius: 3px;
+}
+/* line 66, ../../../../compass/admin_style/partials/_forms.scss */
+div.calendar table td {
+  padding: 0;
+  background: #f3f3f3;
+}
+/* line 67, ../../../../compass/admin_style/partials/_forms.scss */
+div.calendar table td a {
+  padding: 6px 4px;
+}
+/* line 69, ../../../../compass/admin_style/partials/_forms.scss */
+div.calendar .today a {
+  background: #addef6;
+}
+
+/* line 71, ../../../../compass/admin_style/partials/_forms.scss */
+div.calendarbox {
+  width: 200px !important;
+}
+/* line 73, ../../../../compass/admin_style/partials/_forms.scss */
+div.calendarbox table th, div.calendarbox table td {
+  line-height: 12px;
+}
+/* line 74, ../../../../compass/admin_style/partials/_forms.scss */
+div.calendarbox .calendarnav-previous, div.calendarbox .calendarnav-next {
+  background: none;
+  color: white;
+  text-decoration: none;
+  padding: 4px 7px 6px;
+}
+/* line 76, ../../../../compass/admin_style/partials/_forms.scss */
+div.calendarbox .calendarnav-previous:hover, div.calendarbox .calendarnav-previous:focus, div.calendarbox .calendarnav-next:hover, div.calendarbox .calendarnav-next:focus {
+  background: #666;
+}
+/* line 78, ../../../../compass/admin_style/partials/_forms.scss */
+div.calendarbox .calendar-shortcuts {
+  background: transparent;
+  padding: 10px 0 6px 0;
+  border-color: #ddd;
+}
+
+/* line 80, ../../../../compass/admin_style/partials/_forms.scss */
+div.calendarbox, div.clockbox {
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -o-border-radius: 3px;
+  border-radius: 3px;
+  background: #f3f3f3;
+  padding: 0;
+  margin: 0;
+  -webkit-box-shadow: 0 1px 10px rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: 0 1px 10px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 1px 10px rgba(0, 0, 0, 0.1);
+  border: 1px solid #ccc;
+}
+/* line 83, ../../../../compass/admin_style/partials/_forms.scss */
+div.calendarbox caption, div.calendarbox h2, div.clockbox caption, div.clockbox h2 {
+  font-size: 14px;
+}
+/* line 84, ../../../../compass/admin_style/partials/_forms.scss */
+div.calendarbox .calendar-cancel, div.clockbox .calendar-cancel {
+  -moz-border-radius-bottomleft: 3px;
+  -webkit-border-bottom-left-radius: 3px;
+  border-bottom-left-radius: 3px;
+  -moz-border-radius-bottomright: 3px;
+  -webkit-border-bottom-right-radius: 3px;
+  border-bottom-right-radius: 3px;
+  background: none;
+  margin-top: 5px !important;
+  padding: 5px 0 !important;
+}
+
+/* line 88, ../../../../compass/admin_style/partials/_forms.scss */
+div.clockbox {
+  -moz-border-radius-topleft: 3px;
+  -webkit-border-top-left-radius: 3px;
+  border-top-left-radius: 3px;
+  -moz-border-radius-topright: 3px;
+  -webkit-border-top-right-radius: 3px;
+  border-top-right-radius: 3px;
+}
+/* line 90, ../../../../compass/admin_style/partials/_forms.scss */
+div.clockbox h2 {
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #595f65), color-stop(100%, #464b50));
+  background-image: -webkit-linear-gradient(#595f65, #464b50);
+  background-image: -moz-linear-gradient(#595f65, #464b50);
+  background-image: -o-linear-gradient(#595f65, #464b50);
+  background-image: linear-gradient(#595f65, #464b50);
+  background-color: #595f65;
+  color: white !important;
+  -moz-border-radius-topleft: 3px;
+  -webkit-border-top-left-radius: 3px;
+  border-top-left-radius: 3px;
+  -moz-border-radius-topright: 3px;
+  -webkit-border-top-right-radius: 3px;
+  border-top-right-radius: 3px;
+}
+/* line 93, ../../../../compass/admin_style/partials/_forms.scss */
+div.clockbox .timelist a {
+  padding: 5px 2px;
+}
+
+/* line 96, ../../../../compass/admin_style/partials/_forms.scss */
+.timelist a, .timelist a:active, .timelist a:focus, .timelist a:hover {
+  background: none !important;
+}
+
+/* line 99, ../../../../compass/admin_style/partials/_forms.scss */
+span.datetimeshortcuts a {
+  color: #029eee;
+}
+
+/* line 103, ../../../../compass/admin_style/partials/_forms.scss */
+.selector .selector-chooseall, .selector .selector-clearall {
+  line-height: 14px;
+}
+
+/* line 1, ../../../../compass/admin_style/partials/_tables.scss */
+table {
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -o-border-radius: 3px;
+  border-radius: 3px;
+  background: white;
+  border: none;
+  margin: 20px 0;
+  padding: 5px;
+  width: 100%;
+}
+/* line 4, ../../../../compass/admin_style/partials/_tables.scss */
+table th {
+  border-bottom: 1px solid #dddddd;
+}
+/* line 5, ../../../../compass/admin_style/partials/_tables.scss */
+table th, table td {
+  padding: 5px 10px;
+  text-align: left;
+  vertical-align: middle;
+}
+/* line 6, ../../../../compass/admin_style/partials/_tables.scss */
+table thead th, table thead th.sorted, table tfoot td {
+  background: #fcfcfc;
+}
+/* line 7, ../../../../compass/admin_style/partials/_tables.scss */
+table thead th.sortable:hover {
+  background: #f1f1f1;
+}
+/* line 8, ../../../../compass/admin_style/partials/_tables.scss */
+table td, table th {
+  font-family: "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+  padding: 5px;
+}
+/* line 9, ../../../../compass/admin_style/partials/_tables.scss */
+table td.original {
+  vertical-align: top;
+}
+/* line 11, ../../../../compass/admin_style/partials/_tables.scss */
+table tr td {
+  border-bottom: 1px solid #f3f3f3;
+}
+/* line 14, ../../../../compass/admin_style/partials/_tables.scss */
+table th a, table th a:link, table th a:visited, table th a:link:visited {
+  color: #444444;
+}
+/* line 16, ../../../../compass/admin_style/partials/_tables.scss */
+table .row1 {
+  background: white;
+}
+/* line 17, ../../../../compass/admin_style/partials/_tables.scss */
+table .row2 {
+  background: #fcfcfc;
+}
+
+/* line 19, ../../../../compass/admin_style/partials/_tables.scss */
+fieldset table {
+  border: none;
+}
+
+/* line 20, ../../../../compass/admin_style/partials/_tables.scss */
+.results table tbody tr:hover {
+  background: #f1faff;
+}
+
+/* line 3, ../../../../compass/admin_style/partials/_filer.scss */
+.filebrowser #content {
+  margin-top: 20px;
+}
+/* line 4, ../../../../compass/admin_style/partials/_filer.scss */
+.filebrowser h1.folder_header {
+  background-image: none !important;
+  background: none;
+  margin: 0;
+}
+/* line 6, ../../../../compass/admin_style/partials/_filer.scss */
+.filebrowser h1.folder_header .changelink {
+  font-size: 16px;
+  line-height: 30px;
+}
+/* line 8, ../../../../compass/admin_style/partials/_filer.scss */
+.filebrowser .module table td {
+  line-height: 16px;
+}
+
+/* line 1, ../../../../compass/admin_style/partials/_cmsplaceholders.scss */
+.plugin-holder {
+  background: transparent url("../img/pluginlist-holder-bg.png") repeat-y !important;
+}
+/* line 3, ../../../../compass/admin_style/partials/_cmsplaceholders.scss */
+.plugin-holder h2 {
+  margin-bottom: 0 !important;
+}
+/* line 4, ../../../../compass/admin_style/partials/_cmsplaceholders.scss */
+.plugin-holder .plugin-list-holder {
+  width: 285px;
+}
+/* line 6, ../../../../compass/admin_style/partials/_cmsplaceholders.scss */
+.plugin-holder .plugin-list-holder .text {
+  width: 240px;
+}
+/* line 7, ../../../../compass/admin_style/partials/_cmsplaceholders.scss */
+.plugin-holder .plugin-list-holder ul.plugin-list li.active {
+  background: url("../img/bg-pattern-light.jpg") #efefef repeat;
+}
+/* line 9, ../../../../compass/admin_style/partials/_cmsplaceholders.scss */
+.plugin-holder .plugin-list-holder ul.plugin-list li.active:hover {
+  background: white url("../../cms/images/sitemap-li-bg.jpg") repeat-x 0px -100px;
+}
+
+/* line 13, ../../../../compass/admin_style/partials/_cmsplaceholders.scss */
+.plugin-editor > iframe {
+  min-height: 600px;
+}
+
+/* line 3, ../../../../compass/admin_style/partials/_content.scss */
+#container {
+  width: auto !important;
+  min-width: 0 !important;
+}
+
+/* line 4, ../../../../compass/admin_style/partials/_content.scss */
+#content {
+  width: auto !important;
+  min-width: 0 !important;
+}
+
+/* line 5, ../../../../compass/admin_style/partials/_content.scss */
+#changelist {
+  width: auto !important;
+}
+
+/* line 8, ../../../../compass/admin_style/partials/_content.scss */
+.module {
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -o-border-radius: 3px;
+  border-radius: 3px;
+  -webkit-box-shadow: 0 1px 2px 1px rgba(0, 0, 0, 0.08);
+  -moz-box-shadow: 0 1px 2px 1px rgba(0, 0, 0, 0.08);
+  box-shadow: 0 1px 2px 1px rgba(0, 0, 0, 0.08);
+  padding: 0;
+  background: white;
+  border: none;
+  margin-bottom: 5px;
+  margin-bottom: 10px;
+  padding: 10px 15px 15px;
+}
+/* line 6, ../../../../compass/admin_style/partials/_mixins.scss */
+.module h2, .module h3, .module h4, .module h5, .module h6 {
+  margin-bottom: 12px;
+  margin-top: 0;
+}
+/* line 10, ../../../../compass/admin_style/partials/_content.scss */
+.module h2 {
+  background: none;
+  border-bottom: 1px solid #dddddd;
+  color: #444444;
+  font-size: 100%;
+  margin-bottom: 2px;
+  margin-top: 0;
+  padding: 10px;
+}
+/* line 12, ../../../../compass/admin_style/partials/_content.scss */
+.module caption {
+  background: none;
+  color: #888888;
+  font-size: 130%;
+  font-weight: bold;
+  line-height: 1.75em;
+  margin: 0 0 5px 5px;
+  padding: 0;
+}
+/* line 15, ../../../../compass/admin_style/partials/_content.scss */
+.module caption a.section, .module caption a.section:link, .module caption a.section:visited {
+  color: #888888;
+}
+/* line 17, ../../../../compass/admin_style/partials/_content.scss */
+.module table {
+  margin: 0;
+}
+/* line 19, ../../../../compass/admin_style/partials/_content.scss */
+.module table th {
+  padding: 2px 5px !important;
+  line-height: 13px;
+}
+/* line 20, ../../../../compass/admin_style/partials/_content.scss */
+.module table td {
+  padding: 8px 5px;
+  line-height: 13px;
+}
+
+/* line 25, ../../../../compass/admin_style/partials/_content.scss */
+.module h2, .module caption, .inline-group h2 {
+  background: none;
+  color: #222222;
+  font-size: 16px;
+}
+
+/* line 26, ../../../../compass/admin_style/partials/_content.scss */
+.inline-group {
+  border: 0;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -o-border-radius: 3px;
+  border-radius: 3px;
+  -webkit-box-shadow: 0 1px 2px 1px rgba(0, 0, 0, 0.08);
+  -moz-box-shadow: 0 1px 2px 1px rgba(0, 0, 0, 0.08);
+  box-shadow: 0 1px 2px 1px rgba(0, 0, 0, 0.08);
+  padding: 0;
+  background: white;
+  border: none;
+  margin-bottom: 5px;
+  padding: 10px 15px 15px;
+}
+/* line 6, ../../../../compass/admin_style/partials/_mixins.scss */
+.inline-group h2, .inline-group h3, .inline-group h4, .inline-group h5, .inline-group h6 {
+  margin-bottom: 12px;
+  margin-top: 0;
+}
+/* line 28, ../../../../compass/admin_style/partials/_content.scss */
+.inline-group .module {
+  background: none !important;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  -ms-border-radius: 0;
+  -o-border-radius: 0;
+  border-radius: 0;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+  border: none !important;
+  padding: 0;
+}
+/* line 31, ../../../../compass/admin_style/partials/_content.scss */
+.inline-group .module h2 {
+  margin-bottom: 10px;
+  padding-top: 0;
+  padding-bottom: 8px;
+}
+/* line 32, ../../../../compass/admin_style/partials/_content.scss */
+.inline-group .module .add-row a {
+  border-bottom: none;
+  color: #5da03d;
+}
+/* line 33, ../../../../compass/admin_style/partials/_content.scss */
+.inline-group .module .add-row td {
+  background: none;
+  border-bottom: none;
+}
+/* line 34, ../../../../compass/admin_style/partials/_content.scss */
+.inline-group .module tr.add-row:hover {
+  background: none;
+}
+/* line 35, ../../../../compass/admin_style/partials/_content.scss */
+.inline-group .module .form-row {
+  border-bottom: none !important;
+}
+/* line 37, ../../../../compass/admin_style/partials/_content.scss */
+.inline-group .module {
+  width: 100%;
+  overflow: auto;
+}
+/* line 39, ../../../../compass/admin_style/partials/_content.scss */
+.inline-group .add-row, .inline-group .add-row td {
+  border-bottom: none;
+  background: none !important;
+}
+/* line 40, ../../../../compass/admin_style/partials/_content.scss */
+.inline-group .add-row a {
+  color: #5da03d;
+}
+
+/* line 43, ../../../../compass/admin_style/partials/_content.scss */
+.inline-related {
+  margin-bottom: 5px;
+}
+/* line 45, ../../../../compass/admin_style/partials/_content.scss */
+.inline-related h3 {
+  background: none;
+  border-bottom: none;
+}
+
+/* line 47, ../../../../compass/admin_style/partials/_content.scss */
+.submit-row {
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -o-border-radius: 3px;
+  border-radius: 3px;
+  border: 1px solid #dddddd;
+  padding: 10px;
+  -webkit-box-shadow: white 0 0 2px inset !important;
+  -moz-box-shadow: white 0 0 2px inset !important;
+  box-shadow: white 0 0 2px inset !important;
+  background: #f1f1f1;
+  background: rgba(255, 255, 255, 0.2) !important;
+}
+/* line 52, ../../../../compass/admin_style/partials/_content.scss */
+.submit-row .deletelink-box {
+  line-height: 24px;
+}
+/* line 53, ../../../../compass/admin_style/partials/_content.scss */
+.submit-row .deletelink {
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -o-border-radius: 3px;
+  border-radius: 3px;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ffffff), color-stop(100%, #efefef)) !important;
+  background-image: -webkit-linear-gradient(#ffffff, #efefef) !important;
+  background-image: -moz-linear-gradient(#ffffff, #efefef) !important;
+  background-image: -o-linear-gradient(#ffffff, #efefef) !important;
+  background-image: linear-gradient(#ffffff, #efefef) !important;
+  -webkit-box-shadow: #efefef 0 0 2px inset !important;
+  -moz-box-shadow: #efefef 0 0 2px inset !important;
+  box-shadow: #efefef 0 0 2px inset !important;
+  background-color: white !important;
+  border: 1px solid #efefef !important;
+  border-bottom: 1px solid #cccccc !important;
+  color: #555555 !important;
+  font-weight: bolder !important;
+  font-size: 12px !important;
+  line-height: 15px !important;
+  overflow: visible;
+  padding: 5px 10px 5px !important;
+  text-decoration: none !important;
+  width: auto;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ef4a4a), color-stop(100%, #e80101)) !important;
+  background-image: -webkit-linear-gradient(#ef4a4a, #e80101) !important;
+  background-image: -moz-linear-gradient(#ef4a4a, #e80101) !important;
+  background-image: -o-linear-gradient(#ef4a4a, #e80101) !important;
+  background-image: linear-gradient(#ef4a4a, #e80101) !important;
+  -webkit-box-shadow: #ef4a4a 0 0 2px inset !important;
+  -moz-box-shadow: #ef4a4a 0 0 2px inset !important;
+  box-shadow: #ef4a4a 0 0 2px inset !important;
+  background-color: #e80101 !important;
+  border: 1px solid #ef4a4a !important;
+  border-bottom: 1px solid #d50101 !important;
+  color: white !important;
+}
+/* line 20, ../../../../compass/admin_style/partials/_mixins.scss */
+.submit-row .deletelink:hover {
+  background: white !important;
+}
+/* line 34, ../../../../compass/admin_style/partials/_mixins.scss */
+.submit-row .deletelink.small {
+  padding: 3px 8px 4px !important;
+}
+/* line 37, ../../../../compass/admin_style/partials/_mixins.scss */
+.submit-row .deletelink:hover, .submit-row .deletelink:active, .submit-row .deletelink.select, .submit-row .deletelink:visited {
+  background: white;
+  color: #555555;
+  text-decoration: none;
+}
+/* line 42, ../../../../compass/admin_style/partials/_mixins.scss */
+.submit-row .deletelink.animate {
+  -webkit-background-size: 100% 400%;
+  -moz-background-size: 100% 400%;
+  -o-background-size: 100% 400%;
+  background-size: 100% 400%;
+  background-image: -webkit-linear-gradient(-45deg, rgba(255, 255, 255, 0.2) 25%, rgba(255, 255, 255, 0) 25%, rgba(255, 255, 255, 0) 50%, rgba(255, 255, 255, 0.2) 50%, rgba(255, 255, 255, 0.2) 75%, rgba(255, 255, 255, 0) 75%, rgba(255, 255, 255, 0));
+  background-image: -moz-linear-gradient(-45deg, rgba(255, 255, 255, 0.2) 25%, rgba(255, 255, 255, 0) 25%, rgba(255, 255, 255, 0) 50%, rgba(255, 255, 255, 0.2) 50%, rgba(255, 255, 255, 0.2) 75%, rgba(255, 255, 255, 0) 75%, rgba(255, 255, 255, 0));
+  background-image: -o-linear-gradient(-45deg, rgba(255, 255, 255, 0.2) 25%, rgba(255, 255, 255, 0) 25%, rgba(255, 255, 255, 0) 50%, rgba(255, 255, 255, 0.2) 50%, rgba(255, 255, 255, 0.2) 75%, rgba(255, 255, 255, 0) 75%, rgba(255, 255, 255, 0));
+  background-image: linear-gradient(-45deg, rgba(255, 255, 255, 0.2) 25%, rgba(255, 255, 255, 0) 25%, rgba(255, 255, 255, 0) 50%, rgba(255, 255, 255, 0.2) 50%, rgba(255, 255, 255, 0.2) 75%, rgba(255, 255, 255, 0) 75%, rgba(255, 255, 255, 0));
+}
+/* line 114, ../../../../compass/admin_style/partials/_mixins.scss */
+.submit-row .deletelink:hover {
+  background: #ef4a4a !important;
+  color: white !important;
+}
+/* line 118, ../../../../compass/admin_style/partials/_mixins.scss */
+.submit-row .deletelink:active {
+  background: #e80101 !important;
+}
+/* line 121, ../../../../compass/admin_style/partials/_mixins.scss */
+.submit-row .deletelink.animate {
+  -webkit-background-size: 100% 400%;
+  -moz-background-size: 100% 400%;
+  -o-background-size: 100% 400%;
+  background-size: 100% 400%;
+  background-image: -webkit-linear-gradient(-45deg, rgba(255, 255, 255, 0.2) 25%, rgba(255, 255, 255, 0) 25%, rgba(255, 255, 255, 0) 50%, rgba(255, 255, 255, 0.2) 50%, rgba(255, 255, 255, 0.2) 75%, rgba(255, 255, 255, 0) 75%, rgba(255, 255, 255, 0));
+  background-image: -moz-linear-gradient(-45deg, rgba(255, 255, 255, 0.2) 25%, rgba(255, 255, 255, 0) 25%, rgba(255, 255, 255, 0) 50%, rgba(255, 255, 255, 0.2) 50%, rgba(255, 255, 255, 0.2) 75%, rgba(255, 255, 255, 0) 75%, rgba(255, 255, 255, 0));
+  background-image: -o-linear-gradient(-45deg, rgba(255, 255, 255, 0.2) 25%, rgba(255, 255, 255, 0) 25%, rgba(255, 255, 255, 0) 50%, rgba(255, 255, 255, 0.2) 50%, rgba(255, 255, 255, 0.2) 75%, rgba(255, 255, 255, 0) 75%, rgba(255, 255, 255, 0));
+  background-image: linear-gradient(-45deg, rgba(255, 255, 255, 0.2) 25%, rgba(255, 255, 255, 0) 25%, rgba(255, 255, 255, 0) 50%, rgba(255, 255, 255, 0.2) 50%, rgba(255, 255, 255, 0.2) 75%, rgba(255, 255, 255, 0) 75%, rgba(255, 255, 255, 0));
+}
+/* line 54, ../../../../compass/admin_style/partials/_content.scss */
+.submit-row input[type="submit"].default {
+  margin-left: 10px;
+}
+
+/* line 59, ../../../../compass/admin_style/partials/_content.scss */
+.selector .selector-available, .selector .selector-chosen {
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -o-border-radius: 3px;
+  border-radius: 3px;
+  border: 1px solid #dddddd;
+}
+/* line 61, ../../../../compass/admin_style/partials/_content.scss */
+.selector .selector-available h2, .selector .selector-chosen h2 {
+  color: #444444 !important;
+  background: none !important;
+  border: none;
+  margin-bottom: 0;
+  font-size: 13px;
+  line-height: 16px;
+}
+/* line 63, ../../../../compass/admin_style/partials/_content.scss */
+.selector .selector-available input, .selector .selector-chosen input {
+  width: 252px;
+  margin: -5px 0 2px 0;
+}
+/* line 65, ../../../../compass/admin_style/partials/_content.scss */
+.selector .selector-filter {
+  border: none;
+}
+/* line 66, ../../../../compass/admin_style/partials/_content.scss */
+.selector .selector-filter label {
+  display: none;
+}
+/* line 67, ../../../../compass/admin_style/partials/_content.scss */
+.selector select[multiple] {
+  border: 1px solid #dddddd;
+  border-left: none;
+  border-right: none;
+  margin-bottom: 0;
+}
+
+/* line 72, ../../../../compass/admin_style/partials/_content.scss */
+body.login {
+  background: #fcfcfc url("../img/bg-pattern.jpg") repeat !important;
+}
+/* line 74, ../../../../compass/admin_style/partials/_content.scss */
+body.login #container {
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -o-border-radius: 3px;
+  border-radius: 3px;
+  -webkit-box-shadow: 0 1px 2px 1px rgba(0, 0, 0, 0.08);
+  -moz-box-shadow: 0 1px 2px 1px rgba(0, 0, 0, 0.08);
+  box-shadow: 0 1px 2px 1px rgba(0, 0, 0, 0.08);
+  padding: 0;
+  background: white;
+  border: none;
+  margin-bottom: 5px;
+  border: none;
+  width: 340px !important;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.3) 0px 1px 2px, white 0px 1px 1px inset;
+  -moz-box-shadow: rgba(0, 0, 0, 0.3) 0px 1px 2px, white 0px 1px 1px inset;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 1px 2px, white 0px 1px 1px inset;
+}
+/* line 6, ../../../../compass/admin_style/partials/_mixins.scss */
+body.login #container h2, body.login #container h3, body.login #container h4, body.login #container h5, body.login #container h6 {
+  margin-bottom: 12px;
+  margin-top: 0;
+}
+/* line 77, ../../../../compass/admin_style/partials/_content.scss */
+body.login #container #header {
+  background: none !important;
+}
+/* line 79, ../../../../compass/admin_style/partials/_content.scss */
+body.login #container #header #branding h1 {
+  color: #444444;
+  margin: 20px 0 !important;
+  text-align: center;
+}
+/* line 81, ../../../../compass/admin_style/partials/_content.scss */
+body.login #container #content {
+  margin: 0 !important;
+  padding: 25px 40px !important;
+}
+/* line 84, ../../../../compass/admin_style/partials/_content.scss */
+body.login #container #content #content-main form {
+  margin-top: 0 !important;
+}
+/* line 86, ../../../../compass/admin_style/partials/_content.scss */
+body.login #container #content #content-main .form-row label {
+  font-weight: normal;
+  width: 100%;
+  text-align: center;
+}
+/* line 87, ../../../../compass/admin_style/partials/_content.scss */
+body.login #container #content #content-main .form-row input {
+  font-size: 16px;
+  padding: 10px;
+  width: 240px !important;
+}
+/* line 89, ../../../../compass/admin_style/partials/_content.scss */
+body.login #container #content #content-main .submit-row {
+  border: none;
+  background: none;
+  padding: 20px 0 0 0;
+}
+/* line 91, ../../../../compass/admin_style/partials/_content.scss */
+body.login #container #content #content-main .submit-row input, body.login #container #content #content-main .submit-row input[type="submit"] {
+  background-image: none;
+  -webkit-box-shadow: #5bbdee 0 0 2px inset !important;
+  -moz-box-shadow: #5bbdee 0 0 2px inset !important;
+  box-shadow: #5bbdee 0 0 2px inset !important;
+  background-color: #029eee !important;
+  background-image: none !important;
+  border: 1px solid #5bbdee !important;
+  border-bottom: 1px solid #0072ac !important;
+  color: white !important;
+  width: 262px !important;
+}
+/* line 48, ../../../../compass/admin_style/partials/_mixins.scss */
+body.login #container #content #content-main .submit-row input, body.login #container #content #content-main .submit-row input:visited, body.login #container #content #content-main .submit-row input[type="submit"], body.login #container #content #content-main .submit-row input[type="submit"]:visited {
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #5bbdee), color-stop(100%, #029eee)) !important;
+  background-image: -webkit-linear-gradient(#5bbdee, #029eee) !important;
+  background-image: -moz-linear-gradient(#5bbdee, #029eee) !important;
+  background-image: -o-linear-gradient(#5bbdee, #029eee) !important;
+  background-image: linear-gradient(#5bbdee, #029eee) !important;
+}
+/* line 56, ../../../../compass/admin_style/partials/_mixins.scss */
+body.login #container #content #content-main .submit-row input:hover, body.login #container #content #content-main .submit-row input:focus, body.login #container #content #content-main .submit-row input[type="submit"]:hover, body.login #container #content #content-main .submit-row input[type="submit"]:focus {
+  background: #5bbdee !important;
+  color: white !important;
+}
+/* line 60, ../../../../compass/admin_style/partials/_mixins.scss */
+body.login #container #content #content-main .submit-row input:active, body.login #container #content #content-main .submit-row input[type="submit"]:active {
+  background: #029eee !important;
+}
+/* line 63, ../../../../compass/admin_style/partials/_mixins.scss */
+body.login #container #content #content-main .submit-row input.animate, body.login #container #content #content-main .submit-row input[type="submit"].animate {
+  -webkit-background-size: 100% 400%;
+  -moz-background-size: 100% 400%;
+  -o-background-size: 100% 400%;
+  background-size: 100% 400%;
+  background-image: -webkit-linear-gradient(-45deg, rgba(255, 255, 255, 0.1) 25%, rgba(255, 255, 255, 0) 25%, rgba(255, 255, 255, 0) 50%, rgba(255, 255, 255, 0.1) 50%, rgba(255, 255, 255, 0.1) 75%, rgba(255, 255, 255, 0) 75%, rgba(255, 255, 255, 0));
+  background-image: -moz-linear-gradient(-45deg, rgba(255, 255, 255, 0.1) 25%, rgba(255, 255, 255, 0) 25%, rgba(255, 255, 255, 0) 50%, rgba(255, 255, 255, 0.1) 50%, rgba(255, 255, 255, 0.1) 75%, rgba(255, 255, 255, 0) 75%, rgba(255, 255, 255, 0));
+  background-image: -o-linear-gradient(-45deg, rgba(255, 255, 255, 0.1) 25%, rgba(255, 255, 255, 0) 25%, rgba(255, 255, 255, 0) 50%, rgba(255, 255, 255, 0.1) 50%, rgba(255, 255, 255, 0.1) 75%, rgba(255, 255, 255, 0) 75%, rgba(255, 255, 255, 0));
+  background-image: linear-gradient(-45deg, rgba(255, 255, 255, 0.1) 25%, rgba(255, 255, 255, 0) 25%, rgba(255, 255, 255, 0) 50%, rgba(255, 255, 255, 0.1) 50%, rgba(255, 255, 255, 0.1) 75%, rgba(255, 255, 255, 0) 75%, rgba(255, 255, 255, 0));
+}
+/* line 93, ../../../../compass/admin_style/partials/_content.scss */
+body.login #container #content #content-main .submit-row label {
+  display: none;
+}
+/* line 97, ../../../../compass/admin_style/partials/_content.scss */
+body.login #container #footer {
+  display: none;
+}
+
+/* line 102, ../../../../compass/admin_style/partials/_content.scss */
+#header {
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #595f65), color-stop(100%, #464b50));
+  background-image: -webkit-linear-gradient(#595f65, #464b50);
+  background-image: -moz-linear-gradient(#595f65, #464b50);
+  background-image: -o-linear-gradient(#595f65, #464b50);
+  background-image: linear-gradient(#595f65, #464b50);
+  background-color: #464b50;
+  color: white !important;
+  height: 46px;
+}
+/* line 105, ../../../../compass/admin_style/partials/_content.scss */
+#header #branding h1 {
+  color: white;
+  padding: 3px 25px;
+}
+/* line 106, ../../../../compass/admin_style/partials/_content.scss */
+#header #user-tools {
+  padding: 16px 25px 0;
+}
+
+/* line 108, ../../../../compass/admin_style/partials/_content.scss */
+div.breadcrumbs {
+  background: #595f65;
+  border-top: 1px solid #444444;
+  color: #ddd;
+  padding-left: 25px;
+  border-bottom: 0;
+  padding-bottom: 4px;
+}
+/* line 111, ../../../../compass/admin_style/partials/_content.scss */
+div.breadcrumbs a {
+  color: #bbb;
+}
+/* line 113, ../../../../compass/admin_style/partials/_content.scss */
+div.breadcrumbs a:hover {
+  color: #cccccc;
+  text-decoration: none;
+}
+
+/* line 119, ../../../../compass/admin_style/partials/_content.scss */
+.dashboard #container #content-main {
+  min-width: 400px;
+  max-width: 640px;
+}
+/* line 121, ../../../../compass/admin_style/partials/_content.scss */
+.dashboard #container #content-main table th, .dashboard #container #content-main table td {
+  width: auto;
+  border-color: #f3f3f3;
+}
+/* line 123, ../../../../compass/admin_style/partials/_content.scss */
+.dashboard #container #content-main table th a, .dashboard #container #content-main table td a {
+  line-height: 16px;
+}
+/* line 125, ../../../../compass/admin_style/partials/_content.scss */
+.dashboard #container #content-main table th {
+  width: 100%;
+}
+/* line 126, ../../../../compass/admin_style/partials/_content.scss */
+.dashboard #container #content-main .module tr:first-child th, .dashboard #container #content-main .module tr:first-child td {
+  border-top: 1px solid #f3f3f3;
+}
+/* line 128, ../../../../compass/admin_style/partials/_content.scss */
+.dashboard #container #content-related {
+  float: left;
+}
+/* line 130, ../../../../compass/admin_style/partials/_content.scss */
+.dashboard #container #content-related .module {
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -o-border-radius: 3px;
+  border-radius: 3px;
+  border: 1px solid #dddddd;
+  margin-left: 10px;
+  -webkit-box-shadow: white 0 0 2px inset !important;
+  -moz-box-shadow: white 0 0 2px inset !important;
+  box-shadow: white 0 0 2px inset !important;
+  background: rgba(255, 255, 255, 0.2) !important;
+  padding: 10px 20px !important;
+}
+/* line 133, ../../../../compass/admin_style/partials/_content.scss */
+.dashboard #container #content-related .module ul.actionlist {
+  padding: 0;
+}
+/* line 135, ../../../../compass/admin_style/partials/_content.scss */
+.dashboard #container #content-related .module ul.actionlist .changelink a {
+  line-height: 16px;
+}
+/* line 137, ../../../../compass/admin_style/partials/_content.scss */
+.dashboard #container #content-related .module h2 {
+  background: none;
+  color: #888888;
+  padding: 0 0 5px 0;
+}
+/* line 138, ../../../../compass/admin_style/partials/_content.scss */
+.dashboard #container #content-related .module h3 {
+  border-bottom: 1px solid #dddddd;
+  line-height: 20px;
+  margin: 0 0 5px 0;
+  padding: 0;
+}
+/* line 139, ../../../../compass/admin_style/partials/_content.scss */
+.dashboard #container #content-related .module p {
+  padding: 0;
+}
+/* line 142, ../../../../compass/admin_style/partials/_content.scss */
+.dashboard #container table tbody tr:hover {
+  background: none;
+}
+
+/* line 146, ../../../../compass/admin_style/partials/_content.scss */
+a.addlink, a.addlink:link, a.addlink:visited {
+  color: #5bae31;
+}
+/* line 147, ../../../../compass/admin_style/partials/_content.scss */
+a.addlink:hover, a.addlink:focus, a.addlink:active {
+  color: #5da03d;
+}
+
+/* line 151, ../../../../compass/admin_style/partials/_content.scss */
+.object-tools {
+  float: right;
+  margin-top: -34px;
+}
+/* line 153, ../../../../compass/admin_style/partials/_content.scss */
+.object-tools li {
+  list-style: none;
+  background: none;
+  padding-left: 5px;
+  height: 32px;
+}
+/* line 155, ../../../../compass/admin_style/partials/_content.scss */
+.object-tools li:hover {
+  background: none;
+}
+/* line 156, ../../../../compass/admin_style/partials/_content.scss */
+.object-tools li > a {
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -o-border-radius: 3px;
+  border-radius: 3px;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ffffff), color-stop(100%, #efefef)) !important;
+  background-image: -webkit-linear-gradient(#ffffff, #efefef) !important;
+  background-image: -moz-linear-gradient(#ffffff, #efefef) !important;
+  background-image: -o-linear-gradient(#ffffff, #efefef) !important;
+  background-image: linear-gradient(#ffffff, #efefef) !important;
+  -webkit-box-shadow: #efefef 0 0 2px inset !important;
+  -moz-box-shadow: #efefef 0 0 2px inset !important;
+  box-shadow: #efefef 0 0 2px inset !important;
+  background-color: white !important;
+  border: 1px solid #efefef !important;
+  border-bottom: 1px solid #cccccc !important;
+  color: #555555 !important;
+  font-weight: bolder !important;
+  font-size: 12px !important;
+  line-height: 15px !important;
+  overflow: visible;
+  padding: 5px 10px 5px !important;
+  text-decoration: none !important;
+  width: auto;
+}
+/* line 20, ../../../../compass/admin_style/partials/_mixins.scss */
+.object-tools li > a:hover {
+  background: white !important;
+}
+/* line 34, ../../../../compass/admin_style/partials/_mixins.scss */
+.object-tools li > a.small {
+  padding: 3px 8px 4px !important;
+}
+/* line 37, ../../../../compass/admin_style/partials/_mixins.scss */
+.object-tools li > a:hover, .object-tools li > a:active, .object-tools li > a.select, .object-tools li > a:visited {
+  background: white;
+  color: #555555;
+  text-decoration: none;
+}
+/* line 42, ../../../../compass/admin_style/partials/_mixins.scss */
+.object-tools li > a.animate {
+  -webkit-background-size: 100% 400%;
+  -moz-background-size: 100% 400%;
+  -o-background-size: 100% 400%;
+  background-size: 100% 400%;
+  background-image: -webkit-linear-gradient(-45deg, rgba(255, 255, 255, 0.2) 25%, rgba(255, 255, 255, 0) 25%, rgba(255, 255, 255, 0) 50%, rgba(255, 255, 255, 0.2) 50%, rgba(255, 255, 255, 0.2) 75%, rgba(255, 255, 255, 0) 75%, rgba(255, 255, 255, 0));
+  background-image: -moz-linear-gradient(-45deg, rgba(255, 255, 255, 0.2) 25%, rgba(255, 255, 255, 0) 25%, rgba(255, 255, 255, 0) 50%, rgba(255, 255, 255, 0.2) 50%, rgba(255, 255, 255, 0.2) 75%, rgba(255, 255, 255, 0) 75%, rgba(255, 255, 255, 0));
+  background-image: -o-linear-gradient(-45deg, rgba(255, 255, 255, 0.2) 25%, rgba(255, 255, 255, 0) 25%, rgba(255, 255, 255, 0) 50%, rgba(255, 255, 255, 0.2) 50%, rgba(255, 255, 255, 0.2) 75%, rgba(255, 255, 255, 0) 75%, rgba(255, 255, 255, 0));
+  background-image: linear-gradient(-45deg, rgba(255, 255, 255, 0.2) 25%, rgba(255, 255, 255, 0) 25%, rgba(255, 255, 255, 0) 50%, rgba(255, 255, 255, 0.2) 50%, rgba(255, 255, 255, 0.2) 75%, rgba(255, 255, 255, 0) 75%, rgba(255, 255, 255, 0));
+}
+/* line 158, ../../../../compass/admin_style/partials/_content.scss */
+.object-tools .addlink {
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -o-border-radius: 3px;
+  border-radius: 3px;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ffffff), color-stop(100%, #efefef)) !important;
+  background-image: -webkit-linear-gradient(#ffffff, #efefef) !important;
+  background-image: -moz-linear-gradient(#ffffff, #efefef) !important;
+  background-image: -o-linear-gradient(#ffffff, #efefef) !important;
+  background-image: linear-gradient(#ffffff, #efefef) !important;
+  -webkit-box-shadow: #efefef 0 0 2px inset !important;
+  -moz-box-shadow: #efefef 0 0 2px inset !important;
+  box-shadow: #efefef 0 0 2px inset !important;
+  background-color: white !important;
+  border: 1px solid #efefef !important;
+  border-bottom: 1px solid #cccccc !important;
+  color: #555555 !important;
+  font-weight: bolder !important;
+  font-size: 12px !important;
+  line-height: 15px !important;
+  overflow: visible;
+  padding: 5px 10px 5px !important;
+  text-decoration: none !important;
+  width: auto;
+  -webkit-box-shadow: #7cbe5a 0 0 2px inset !important;
+  -moz-box-shadow: #7cbe5a 0 0 2px inset !important;
+  box-shadow: #7cbe5a 0 0 2px inset !important;
+  background-color: #5bae31 !important;
+  border: 1px solid #7cbe5a !important;
+  border-bottom: 1px solid #5da03d !important;
+  color: white !important;
+  color: white !important;
+}
+/* line 20, ../../../../compass/admin_style/partials/_mixins.scss */
+.object-tools .addlink:hover {
+  background: white !important;
+}
+/* line 34, ../../../../compass/admin_style/partials/_mixins.scss */
+.object-tools .addlink.small {
+  padding: 3px 8px 4px !important;
+}
+/* line 37, ../../../../compass/admin_style/partials/_mixins.scss */
+.object-tools .addlink:hover, .object-tools .addlink:active, .object-tools .addlink.select, .object-tools .addlink:visited {
+  background: white;
+  color: #555555;
+  text-decoration: none;
+}
+/* line 42, ../../../../compass/admin_style/partials/_mixins.scss */
+.object-tools .addlink.animate {
+  -webkit-background-size: 100% 400%;
+  -moz-background-size: 100% 400%;
+  -o-background-size: 100% 400%;
+  background-size: 100% 400%;
+  background-image: -webkit-linear-gradient(-45deg, rgba(255, 255, 255, 0.2) 25%, rgba(255, 255, 255, 0) 25%, rgba(255, 255, 255, 0) 50%, rgba(255, 255, 255, 0.2) 50%, rgba(255, 255, 255, 0.2) 75%, rgba(255, 255, 255, 0) 75%, rgba(255, 255, 255, 0));
+  background-image: -moz-linear-gradient(-45deg, rgba(255, 255, 255, 0.2) 25%, rgba(255, 255, 255, 0) 25%, rgba(255, 255, 255, 0) 50%, rgba(255, 255, 255, 0.2) 50%, rgba(255, 255, 255, 0.2) 75%, rgba(255, 255, 255, 0) 75%, rgba(255, 255, 255, 0));
+  background-image: -o-linear-gradient(-45deg, rgba(255, 255, 255, 0.2) 25%, rgba(255, 255, 255, 0) 25%, rgba(255, 255, 255, 0) 50%, rgba(255, 255, 255, 0.2) 50%, rgba(255, 255, 255, 0.2) 75%, rgba(255, 255, 255, 0) 75%, rgba(255, 255, 255, 0));
+  background-image: linear-gradient(-45deg, rgba(255, 255, 255, 0.2) 25%, rgba(255, 255, 255, 0) 25%, rgba(255, 255, 255, 0) 50%, rgba(255, 255, 255, 0.2) 50%, rgba(255, 255, 255, 0.2) 75%, rgba(255, 255, 255, 0) 75%, rgba(255, 255, 255, 0));
+}
+/* line 69, ../../../../compass/admin_style/partials/_mixins.scss */
+.object-tools .addlink, .object-tools .addlink:visited {
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #7cbe5a), color-stop(100%, #5bae31)) !important;
+  background-image: -webkit-linear-gradient(#7cbe5a, #5bae31) !important;
+  background-image: -moz-linear-gradient(#7cbe5a, #5bae31) !important;
+  background-image: -o-linear-gradient(#7cbe5a, #5bae31) !important;
+  background-image: linear-gradient(#7cbe5a, #5bae31) !important;
+}
+/* line 76, ../../../../compass/admin_style/partials/_mixins.scss */
+.object-tools .addlink:hover {
+  background: #7cbe5a !important;
+  color: white !important;
+}
+/* line 80, ../../../../compass/admin_style/partials/_mixins.scss */
+.object-tools .addlink:active {
+  background: #5bae31 !important;
+}
+/* line 83, ../../../../compass/admin_style/partials/_mixins.scss */
+.object-tools .addlink.animate {
+  -webkit-background-size: 100% 400%;
+  -moz-background-size: 100% 400%;
+  -o-background-size: 100% 400%;
+  background-size: 100% 400%;
+  background-image: -webkit-linear-gradient(-45deg, rgba(255, 255, 255, 0.1) 25%, rgba(255, 255, 255, 0) 25%, rgba(255, 255, 255, 0) 50%, rgba(255, 255, 255, 0.1) 50%, rgba(255, 255, 255, 0.1) 75%, rgba(255, 255, 255, 0) 75%, rgba(255, 255, 255, 0));
+  background-image: -moz-linear-gradient(-45deg, rgba(255, 255, 255, 0.1) 25%, rgba(255, 255, 255, 0) 25%, rgba(255, 255, 255, 0) 50%, rgba(255, 255, 255, 0.1) 50%, rgba(255, 255, 255, 0.1) 75%, rgba(255, 255, 255, 0) 75%, rgba(255, 255, 255, 0));
+  background-image: -o-linear-gradient(-45deg, rgba(255, 255, 255, 0.1) 25%, rgba(255, 255, 255, 0) 25%, rgba(255, 255, 255, 0) 50%, rgba(255, 255, 255, 0.1) 50%, rgba(255, 255, 255, 0.1) 75%, rgba(255, 255, 255, 0) 75%, rgba(255, 255, 255, 0));
+  background-image: linear-gradient(-45deg, rgba(255, 255, 255, 0.1) 25%, rgba(255, 255, 255, 0) 25%, rgba(255, 255, 255, 0) 50%, rgba(255, 255, 255, 0.1) 50%, rgba(255, 255, 255, 0.1) 75%, rgba(255, 255, 255, 0) 75%, rgba(255, 255, 255, 0));
+}
+/* line 159, ../../../../compass/admin_style/partials/_content.scss */
+.object-tools .recoverlink {
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -o-border-radius: 3px;
+  border-radius: 3px;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ffffff), color-stop(100%, #efefef)) !important;
+  background-image: -webkit-linear-gradient(#ffffff, #efefef) !important;
+  background-image: -moz-linear-gradient(#ffffff, #efefef) !important;
+  background-image: -o-linear-gradient(#ffffff, #efefef) !important;
+  background-image: linear-gradient(#ffffff, #efefef) !important;
+  -webkit-box-shadow: #efefef 0 0 2px inset !important;
+  -moz-box-shadow: #efefef 0 0 2px inset !important;
+  box-shadow: #efefef 0 0 2px inset !important;
+  background-color: white !important;
+  border: 1px solid #efefef !important;
+  border-bottom: 1px solid #cccccc !important;
+  color: #555555 !important;
+  font-weight: bolder !important;
+  font-size: 12px !important;
+  line-height: 15px !important;
+  overflow: visible;
+  padding: 5px 10px 5px !important;
+  text-decoration: none !important;
+  width: auto;
+}
+/* line 20, ../../../../compass/admin_style/partials/_mixins.scss */
+.object-tools .recoverlink:hover {
+  background: white !important;
+}
+/* line 34, ../../../../compass/admin_style/partials/_mixins.scss */
+.object-tools .recoverlink.small {
+  padding: 3px 8px 4px !important;
+}
+/* line 37, ../../../../compass/admin_style/partials/_mixins.scss */
+.object-tools .recoverlink:hover, .object-tools .recoverlink:active, .object-tools .recoverlink.select, .object-tools .recoverlink:visited {
+  background: white;
+  color: #555555;
+  text-decoration: none;
+}
+/* line 42, ../../../../compass/admin_style/partials/_mixins.scss */
+.object-tools .recoverlink.animate {
+  -webkit-background-size: 100% 400%;
+  -moz-background-size: 100% 400%;
+  -o-background-size: 100% 400%;
+  background-size: 100% 400%;
+  background-image: -webkit-linear-gradient(-45deg, rgba(255, 255, 255, 0.2) 25%, rgba(255, 255, 255, 0) 25%, rgba(255, 255, 255, 0) 50%, rgba(255, 255, 255, 0.2) 50%, rgba(255, 255, 255, 0.2) 75%, rgba(255, 255, 255, 0) 75%, rgba(255, 255, 255, 0));
+  background-image: -moz-linear-gradient(-45deg, rgba(255, 255, 255, 0.2) 25%, rgba(255, 255, 255, 0) 25%, rgba(255, 255, 255, 0) 50%, rgba(255, 255, 255, 0.2) 50%, rgba(255, 255, 255, 0.2) 75%, rgba(255, 255, 255, 0) 75%, rgba(255, 255, 255, 0));
+  background-image: -o-linear-gradient(-45deg, rgba(255, 255, 255, 0.2) 25%, rgba(255, 255, 255, 0) 25%, rgba(255, 255, 255, 0) 50%, rgba(255, 255, 255, 0.2) 50%, rgba(255, 255, 255, 0.2) 75%, rgba(255, 255, 255, 0) 75%, rgba(255, 255, 255, 0));
+  background-image: linear-gradient(-45deg, rgba(255, 255, 255, 0.2) 25%, rgba(255, 255, 255, 0) 25%, rgba(255, 255, 255, 0) 50%, rgba(255, 255, 255, 0.2) 50%, rgba(255, 255, 255, 0.2) 75%, rgba(255, 255, 255, 0) 75%, rgba(255, 255, 255, 0));
+}
+/* line 160, ../../../../compass/admin_style/partials/_content.scss */
+.object-tools .publishlink {
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -o-border-radius: 3px;
+  border-radius: 3px;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ffffff), color-stop(100%, #efefef)) !important;
+  background-image: -webkit-linear-gradient(#ffffff, #efefef) !important;
+  background-image: -moz-linear-gradient(#ffffff, #efefef) !important;
+  background-image: -o-linear-gradient(#ffffff, #efefef) !important;
+  background-image: linear-gradient(#ffffff, #efefef) !important;
+  -webkit-box-shadow: #efefef 0 0 2px inset !important;
+  -moz-box-shadow: #efefef 0 0 2px inset !important;
+  box-shadow: #efefef 0 0 2px inset !important;
+  background-color: white !important;
+  border: 1px solid #efefef !important;
+  border-bottom: 1px solid #cccccc !important;
+  color: #555555 !important;
+  font-weight: bolder !important;
+  font-size: 12px !important;
+  line-height: 15px !important;
+  overflow: visible;
+  padding: 5px 10px 5px !important;
+  text-decoration: none !important;
+  width: auto;
+}
+/* line 20, ../../../../compass/admin_style/partials/_mixins.scss */
+.object-tools .publishlink:hover {
+  background: white !important;
+}
+/* line 34, ../../../../compass/admin_style/partials/_mixins.scss */
+.object-tools .publishlink.small {
+  padding: 3px 8px 4px !important;
+}
+/* line 37, ../../../../compass/admin_style/partials/_mixins.scss */
+.object-tools .publishlink:hover, .object-tools .publishlink:active, .object-tools .publishlink.select, .object-tools .publishlink:visited {
+  background: white;
+  color: #555555;
+  text-decoration: none;
+}
+/* line 42, ../../../../compass/admin_style/partials/_mixins.scss */
+.object-tools .publishlink.animate {
+  -webkit-background-size: 100% 400%;
+  -moz-background-size: 100% 400%;
+  -o-background-size: 100% 400%;
+  background-size: 100% 400%;
+  background-image: -webkit-linear-gradient(-45deg, rgba(255, 255, 255, 0.2) 25%, rgba(255, 255, 255, 0) 25%, rgba(255, 255, 255, 0) 50%, rgba(255, 255, 255, 0.2) 50%, rgba(255, 255, 255, 0.2) 75%, rgba(255, 255, 255, 0) 75%, rgba(255, 255, 255, 0));
+  background-image: -moz-linear-gradient(-45deg, rgba(255, 255, 255, 0.2) 25%, rgba(255, 255, 255, 0) 25%, rgba(255, 255, 255, 0) 50%, rgba(255, 255, 255, 0.2) 50%, rgba(255, 255, 255, 0.2) 75%, rgba(255, 255, 255, 0) 75%, rgba(255, 255, 255, 0));
+  background-image: -o-linear-gradient(-45deg, rgba(255, 255, 255, 0.2) 25%, rgba(255, 255, 255, 0) 25%, rgba(255, 255, 255, 0) 50%, rgba(255, 255, 255, 0.2) 50%, rgba(255, 255, 255, 0.2) 75%, rgba(255, 255, 255, 0) 75%, rgba(255, 255, 255, 0));
+  background-image: linear-gradient(-45deg, rgba(255, 255, 255, 0.2) 25%, rgba(255, 255, 255, 0) 25%, rgba(255, 255, 255, 0) 50%, rgba(255, 255, 255, 0.2) 50%, rgba(255, 255, 255, 0.2) 75%, rgba(255, 255, 255, 0) 75%, rgba(255, 255, 255, 0));
+}
+/* line 161, ../../../../compass/admin_style/partials/_content.scss */
+.object-tools .previewdraftlink {
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -o-border-radius: 3px;
+  border-radius: 3px;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ffffff), color-stop(100%, #efefef)) !important;
+  background-image: -webkit-linear-gradient(#ffffff, #efefef) !important;
+  background-image: -moz-linear-gradient(#ffffff, #efefef) !important;
+  background-image: -o-linear-gradient(#ffffff, #efefef) !important;
+  background-image: linear-gradient(#ffffff, #efefef) !important;
+  -webkit-box-shadow: #efefef 0 0 2px inset !important;
+  -moz-box-shadow: #efefef 0 0 2px inset !important;
+  box-shadow: #efefef 0 0 2px inset !important;
+  background-color: white !important;
+  border: 1px solid #efefef !important;
+  border-bottom: 1px solid #cccccc !important;
+  color: #555555 !important;
+  font-weight: bolder !important;
+  font-size: 12px !important;
+  line-height: 15px !important;
+  overflow: visible;
+  padding: 5px 10px 5px !important;
+  text-decoration: none !important;
+  width: auto;
+}
+/* line 20, ../../../../compass/admin_style/partials/_mixins.scss */
+.object-tools .previewdraftlink:hover {
+  background: white !important;
+}
+/* line 34, ../../../../compass/admin_style/partials/_mixins.scss */
+.object-tools .previewdraftlink.small {
+  padding: 3px 8px 4px !important;
+}
+/* line 37, ../../../../compass/admin_style/partials/_mixins.scss */
+.object-tools .previewdraftlink:hover, .object-tools .previewdraftlink:active, .object-tools .previewdraftlink.select, .object-tools .previewdraftlink:visited {
+  background: white;
+  color: #555555;
+  text-decoration: none;
+}
+/* line 42, ../../../../compass/admin_style/partials/_mixins.scss */
+.object-tools .previewdraftlink.animate {
+  -webkit-background-size: 100% 400%;
+  -moz-background-size: 100% 400%;
+  -o-background-size: 100% 400%;
+  background-size: 100% 400%;
+  background-image: -webkit-linear-gradient(-45deg, rgba(255, 255, 255, 0.2) 25%, rgba(255, 255, 255, 0) 25%, rgba(255, 255, 255, 0) 50%, rgba(255, 255, 255, 0.2) 50%, rgba(255, 255, 255, 0.2) 75%, rgba(255, 255, 255, 0) 75%, rgba(255, 255, 255, 0));
+  background-image: -moz-linear-gradient(-45deg, rgba(255, 255, 255, 0.2) 25%, rgba(255, 255, 255, 0) 25%, rgba(255, 255, 255, 0) 50%, rgba(255, 255, 255, 0.2) 50%, rgba(255, 255, 255, 0.2) 75%, rgba(255, 255, 255, 0) 75%, rgba(255, 255, 255, 0));
+  background-image: -o-linear-gradient(-45deg, rgba(255, 255, 255, 0.2) 25%, rgba(255, 255, 255, 0) 25%, rgba(255, 255, 255, 0) 50%, rgba(255, 255, 255, 0.2) 50%, rgba(255, 255, 255, 0.2) 75%, rgba(255, 255, 255, 0) 75%, rgba(255, 255, 255, 0));
+  background-image: linear-gradient(-45deg, rgba(255, 255, 255, 0.2) 25%, rgba(255, 255, 255, 0) 25%, rgba(255, 255, 255, 0) 50%, rgba(255, 255, 255, 0.2) 50%, rgba(255, 255, 255, 0.2) 75%, rgba(255, 255, 255, 0) 75%, rgba(255, 255, 255, 0));
+}
+/* line 162, ../../../../compass/admin_style/partials/_content.scss */
+.object-tools .revertlink {
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -o-border-radius: 3px;
+  border-radius: 3px;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ffffff), color-stop(100%, #efefef)) !important;
+  background-image: -webkit-linear-gradient(#ffffff, #efefef) !important;
+  background-image: -moz-linear-gradient(#ffffff, #efefef) !important;
+  background-image: -o-linear-gradient(#ffffff, #efefef) !important;
+  background-image: linear-gradient(#ffffff, #efefef) !important;
+  -webkit-box-shadow: #efefef 0 0 2px inset !important;
+  -moz-box-shadow: #efefef 0 0 2px inset !important;
+  box-shadow: #efefef 0 0 2px inset !important;
+  background-color: white !important;
+  border: 1px solid #efefef !important;
+  border-bottom: 1px solid #cccccc !important;
+  color: #555555 !important;
+  font-weight: bolder !important;
+  font-size: 12px !important;
+  line-height: 15px !important;
+  overflow: visible;
+  padding: 5px 10px 5px !important;
+  text-decoration: none !important;
+  width: auto;
+}
+/* line 20, ../../../../compass/admin_style/partials/_mixins.scss */
+.object-tools .revertlink:hover {
+  background: white !important;
+}
+/* line 34, ../../../../compass/admin_style/partials/_mixins.scss */
+.object-tools .revertlink.small {
+  padding: 3px 8px 4px !important;
+}
+/* line 37, ../../../../compass/admin_style/partials/_mixins.scss */
+.object-tools .revertlink:hover, .object-tools .revertlink:active, .object-tools .revertlink.select, .object-tools .revertlink:visited {
+  background: white;
+  color: #555555;
+  text-decoration: none;
+}
+/* line 42, ../../../../compass/admin_style/partials/_mixins.scss */
+.object-tools .revertlink.animate {
+  -webkit-background-size: 100% 400%;
+  -moz-background-size: 100% 400%;
+  -o-background-size: 100% 400%;
+  background-size: 100% 400%;
+  background-image: -webkit-linear-gradient(-45deg, rgba(255, 255, 255, 0.2) 25%, rgba(255, 255, 255, 0) 25%, rgba(255, 255, 255, 0) 50%, rgba(255, 255, 255, 0.2) 50%, rgba(255, 255, 255, 0.2) 75%, rgba(255, 255, 255, 0) 75%, rgba(255, 255, 255, 0));
+  background-image: -moz-linear-gradient(-45deg, rgba(255, 255, 255, 0.2) 25%, rgba(255, 255, 255, 0) 25%, rgba(255, 255, 255, 0) 50%, rgba(255, 255, 255, 0.2) 50%, rgba(255, 255, 255, 0.2) 75%, rgba(255, 255, 255, 0) 75%, rgba(255, 255, 255, 0));
+  background-image: -o-linear-gradient(-45deg, rgba(255, 255, 255, 0.2) 25%, rgba(255, 255, 255, 0) 25%, rgba(255, 255, 255, 0) 50%, rgba(255, 255, 255, 0.2) 50%, rgba(255, 255, 255, 0.2) 75%, rgba(255, 255, 255, 0) 75%, rgba(255, 255, 255, 0));
+  background-image: linear-gradient(-45deg, rgba(255, 255, 255, 0.2) 25%, rgba(255, 255, 255, 0) 25%, rgba(255, 255, 255, 0) 50%, rgba(255, 255, 255, 0.2) 50%, rgba(255, 255, 255, 0.2) 75%, rgba(255, 255, 255, 0) 75%, rgba(255, 255, 255, 0));
+}
+/* line 163, ../../../../compass/admin_style/partials/_content.scss */
+.object-tools .historylink {
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -o-border-radius: 3px;
+  border-radius: 3px;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ffffff), color-stop(100%, #efefef)) !important;
+  background-image: -webkit-linear-gradient(#ffffff, #efefef) !important;
+  background-image: -moz-linear-gradient(#ffffff, #efefef) !important;
+  background-image: -o-linear-gradient(#ffffff, #efefef) !important;
+  background-image: linear-gradient(#ffffff, #efefef) !important;
+  -webkit-box-shadow: #efefef 0 0 2px inset !important;
+  -moz-box-shadow: #efefef 0 0 2px inset !important;
+  box-shadow: #efefef 0 0 2px inset !important;
+  background-color: white !important;
+  border: 1px solid #efefef !important;
+  border-bottom: 1px solid #cccccc !important;
+  color: #555555 !important;
+  font-weight: bolder !important;
+  font-size: 12px !important;
+  line-height: 15px !important;
+  overflow: visible;
+  padding: 5px 10px 5px !important;
+  text-decoration: none !important;
+  width: auto;
+}
+/* line 20, ../../../../compass/admin_style/partials/_mixins.scss */
+.object-tools .historylink:hover {
+  background: white !important;
+}
+/* line 34, ../../../../compass/admin_style/partials/_mixins.scss */
+.object-tools .historylink.small {
+  padding: 3px 8px 4px !important;
+}
+/* line 37, ../../../../compass/admin_style/partials/_mixins.scss */
+.object-tools .historylink:hover, .object-tools .historylink:active, .object-tools .historylink.select, .object-tools .historylink:visited {
+  background: white;
+  color: #555555;
+  text-decoration: none;
+}
+/* line 42, ../../../../compass/admin_style/partials/_mixins.scss */
+.object-tools .historylink.animate {
+  -webkit-background-size: 100% 400%;
+  -moz-background-size: 100% 400%;
+  -o-background-size: 100% 400%;
+  background-size: 100% 400%;
+  background-image: -webkit-linear-gradient(-45deg, rgba(255, 255, 255, 0.2) 25%, rgba(255, 255, 255, 0) 25%, rgba(255, 255, 255, 0) 50%, rgba(255, 255, 255, 0.2) 50%, rgba(255, 255, 255, 0.2) 75%, rgba(255, 255, 255, 0) 75%, rgba(255, 255, 255, 0));
+  background-image: -moz-linear-gradient(-45deg, rgba(255, 255, 255, 0.2) 25%, rgba(255, 255, 255, 0) 25%, rgba(255, 255, 255, 0) 50%, rgba(255, 255, 255, 0.2) 50%, rgba(255, 255, 255, 0.2) 75%, rgba(255, 255, 255, 0) 75%, rgba(255, 255, 255, 0));
+  background-image: -o-linear-gradient(-45deg, rgba(255, 255, 255, 0.2) 25%, rgba(255, 255, 255, 0) 25%, rgba(255, 255, 255, 0) 50%, rgba(255, 255, 255, 0.2) 50%, rgba(255, 255, 255, 0.2) 75%, rgba(255, 255, 255, 0) 75%, rgba(255, 255, 255, 0));
+  background-image: linear-gradient(-45deg, rgba(255, 255, 255, 0.2) 25%, rgba(255, 255, 255, 0) 25%, rgba(255, 255, 255, 0) 50%, rgba(255, 255, 255, 0.2) 50%, rgba(255, 255, 255, 0.2) 75%, rgba(255, 255, 255, 0) 75%, rgba(255, 255, 255, 0));
+}
+/* line 164, ../../../../compass/admin_style/partials/_content.scss */
+.object-tools .viewsitelink {
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -o-border-radius: 3px;
+  border-radius: 3px;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ffffff), color-stop(100%, #efefef)) !important;
+  background-image: -webkit-linear-gradient(#ffffff, #efefef) !important;
+  background-image: -moz-linear-gradient(#ffffff, #efefef) !important;
+  background-image: -o-linear-gradient(#ffffff, #efefef) !important;
+  background-image: linear-gradient(#ffffff, #efefef) !important;
+  -webkit-box-shadow: #efefef 0 0 2px inset !important;
+  -moz-box-shadow: #efefef 0 0 2px inset !important;
+  box-shadow: #efefef 0 0 2px inset !important;
+  background-color: white !important;
+  border: 1px solid #efefef !important;
+  border-bottom: 1px solid #cccccc !important;
+  color: #555555 !important;
+  font-weight: bolder !important;
+  font-size: 12px !important;
+  line-height: 15px !important;
+  overflow: visible;
+  padding: 5px 10px 5px !important;
+  text-decoration: none !important;
+  width: auto;
+  -webkit-box-shadow: #5bbdee 0 0 2px inset !important;
+  -moz-box-shadow: #5bbdee 0 0 2px inset !important;
+  box-shadow: #5bbdee 0 0 2px inset !important;
+  background-color: #029eee !important;
+  background-image: none !important;
+  border: 1px solid #5bbdee !important;
+  border-bottom: 1px solid #0072ac !important;
+  color: white !important;
+}
+/* line 20, ../../../../compass/admin_style/partials/_mixins.scss */
+.object-tools .viewsitelink:hover {
+  background: white !important;
+}
+/* line 34, ../../../../compass/admin_style/partials/_mixins.scss */
+.object-tools .viewsitelink.small {
+  padding: 3px 8px 4px !important;
+}
+/* line 37, ../../../../compass/admin_style/partials/_mixins.scss */
+.object-tools .viewsitelink:hover, .object-tools .viewsitelink:active, .object-tools .viewsitelink.select, .object-tools .viewsitelink:visited {
+  background: white;
+  color: #555555;
+  text-decoration: none;
+}
+/* line 42, ../../../../compass/admin_style/partials/_mixins.scss */
+.object-tools .viewsitelink.animate {
+  -webkit-background-size: 100% 400%;
+  -moz-background-size: 100% 400%;
+  -o-background-size: 100% 400%;
+  background-size: 100% 400%;
+  background-image: -webkit-linear-gradient(-45deg, rgba(255, 255, 255, 0.2) 25%, rgba(255, 255, 255, 0) 25%, rgba(255, 255, 255, 0) 50%, rgba(255, 255, 255, 0.2) 50%, rgba(255, 255, 255, 0.2) 75%, rgba(255, 255, 255, 0) 75%, rgba(255, 255, 255, 0));
+  background-image: -moz-linear-gradient(-45deg, rgba(255, 255, 255, 0.2) 25%, rgba(255, 255, 255, 0) 25%, rgba(255, 255, 255, 0) 50%, rgba(255, 255, 255, 0.2) 50%, rgba(255, 255, 255, 0.2) 75%, rgba(255, 255, 255, 0) 75%, rgba(255, 255, 255, 0));
+  background-image: -o-linear-gradient(-45deg, rgba(255, 255, 255, 0.2) 25%, rgba(255, 255, 255, 0) 25%, rgba(255, 255, 255, 0) 50%, rgba(255, 255, 255, 0.2) 50%, rgba(255, 255, 255, 0.2) 75%, rgba(255, 255, 255, 0) 75%, rgba(255, 255, 255, 0));
+  background-image: linear-gradient(-45deg, rgba(255, 255, 255, 0.2) 25%, rgba(255, 255, 255, 0) 25%, rgba(255, 255, 255, 0) 50%, rgba(255, 255, 255, 0.2) 50%, rgba(255, 255, 255, 0.2) 75%, rgba(255, 255, 255, 0) 75%, rgba(255, 255, 255, 0));
+}
+/* line 48, ../../../../compass/admin_style/partials/_mixins.scss */
+.object-tools .viewsitelink, .object-tools .viewsitelink:visited {
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #5bbdee), color-stop(100%, #029eee)) !important;
+  background-image: -webkit-linear-gradient(#5bbdee, #029eee) !important;
+  background-image: -moz-linear-gradient(#5bbdee, #029eee) !important;
+  background-image: -o-linear-gradient(#5bbdee, #029eee) !important;
+  background-image: linear-gradient(#5bbdee, #029eee) !important;
+}
+/* line 56, ../../../../compass/admin_style/partials/_mixins.scss */
+.object-tools .viewsitelink:hover, .object-tools .viewsitelink:focus {
+  background: #5bbdee !important;
+  color: white !important;
+}
+/* line 60, ../../../../compass/admin_style/partials/_mixins.scss */
+.object-tools .viewsitelink:active {
+  background: #029eee !important;
+}
+/* line 63, ../../../../compass/admin_style/partials/_mixins.scss */
+.object-tools .viewsitelink.animate {
+  -webkit-background-size: 100% 400%;
+  -moz-background-size: 100% 400%;
+  -o-background-size: 100% 400%;
+  background-size: 100% 400%;
+  background-image: -webkit-linear-gradient(-45deg, rgba(255, 255, 255, 0.1) 25%, rgba(255, 255, 255, 0) 25%, rgba(255, 255, 255, 0) 50%, rgba(255, 255, 255, 0.1) 50%, rgba(255, 255, 255, 0.1) 75%, rgba(255, 255, 255, 0) 75%, rgba(255, 255, 255, 0));
+  background-image: -moz-linear-gradient(-45deg, rgba(255, 255, 255, 0.1) 25%, rgba(255, 255, 255, 0) 25%, rgba(255, 255, 255, 0) 50%, rgba(255, 255, 255, 0.1) 50%, rgba(255, 255, 255, 0.1) 75%, rgba(255, 255, 255, 0) 75%, rgba(255, 255, 255, 0));
+  background-image: -o-linear-gradient(-45deg, rgba(255, 255, 255, 0.1) 25%, rgba(255, 255, 255, 0) 25%, rgba(255, 255, 255, 0) 50%, rgba(255, 255, 255, 0.1) 50%, rgba(255, 255, 255, 0.1) 75%, rgba(255, 255, 255, 0) 75%, rgba(255, 255, 255, 0));
+  background-image: linear-gradient(-45deg, rgba(255, 255, 255, 0.1) 25%, rgba(255, 255, 255, 0) 25%, rgba(255, 255, 255, 0) 50%, rgba(255, 255, 255, 0.1) 50%, rgba(255, 255, 255, 0.1) 75%, rgba(255, 255, 255, 0) 75%, rgba(255, 255, 255, 0));
+}
+
+/* line 169, ../../../../compass/admin_style/partials/_content.scss */
+.change-list .filtered {
+  min-height: auto;
+  background-image: none !important;
+}
+/* line 171, ../../../../compass/admin_style/partials/_content.scss */
+.change-list .filtered table {
+  border: none;
+}
+/* line 176, ../../../../compass/admin_style/partials/_content.scss */
+.change-list #changelist table tbody th, .change-list #changelist table tbody td {
+  border-color: #f1f1f1;
+}
+/* line 177, ../../../../compass/admin_style/partials/_content.scss */
+.change-list #changelist table tbody th a, .change-list #changelist table tbody th a:link, .change-list #changelist table tbody th a:visited, .change-list #changelist table tbody th a:link:visited, .change-list #changelist table tbody td a, .change-list #changelist table tbody td a:link, .change-list #changelist table tbody td a:visited, .change-list #changelist table tbody td a:link:visited {
+  color: #029eee;
+}
+/* line 180, ../../../../compass/admin_style/partials/_content.scss */
+.change-list #changelist table tbody tr.selected {
+  background: #f6fcff !important;
+}
+/* line 183, ../../../../compass/admin_style/partials/_content.scss */
+.change-list #changelist #toolbar {
+  background: none !important;
+  border: 0 !important;
+  margin: 0 0 5px 0;
+  min-height: 30px;
+  height: auto;
+}
+/* line 185, ../../../../compass/admin_style/partials/_content.scss */
+.change-list #changelist #toolbar form label {
+  min-width: auto;
+  padding: 0;
+  font-size: 100%;
+}
+/* line 186, ../../../../compass/admin_style/partials/_content.scss */
+.change-list #changelist #toolbar form #searchbar {
+  padding: 6px 5px 8px 5px !important;
+  font-size: 100%;
+}
+/* line 188, ../../../../compass/admin_style/partials/_content.scss */
+.change-list #changelist #changelist-filter {
+  min-height: 100%;
+  background: #fafafa;
+  -moz-border-radius-topright: 3px;
+  -webkit-border-top-right-radius: 3px;
+  border-top-right-radius: 3px;
+  -moz-border-radius-bottomright: 3px;
+  -webkit-border-bottom-right-radius: 3px;
+  border-bottom-right-radius: 3px;
+}
+/* line 190, ../../../../compass/admin_style/partials/_content.scss */
+.change-list #changelist #changelist-filter h2 {
+  background: none;
+  color: #888888;
+  padding: 2px 9px;
+}
+/* line 191, ../../../../compass/admin_style/partials/_content.scss */
+.change-list #changelist #changelist-filter h3 {
+  margin: 5px 0;
+}
+/* line 192, ../../../../compass/admin_style/partials/_content.scss */
+.change-list #changelist #changelist-filter ul {
+  font-size: 12px;
+  margin-bottom: 10px;
+}
+/* line 194, ../../../../compass/admin_style/partials/_content.scss */
+.change-list #changelist #changelist-filter ul li {
+  margin-bottom: 2px;
+}
+/* line 195, ../../../../compass/admin_style/partials/_content.scss */
+.change-list #changelist #changelist-filter ul li.selected a {
+  color: #029eee !important;
+}
+/* line 198, ../../../../compass/admin_style/partials/_content.scss */
+.change-list #changelist .actions {
+  background: none;
+  border: none;
+  padding: 0px 3px 10px 3px;
+}
+/* line 200, ../../../../compass/admin_style/partials/_content.scss */
+.change-list #changelist .actions button {
+  height: 20px;
+  vertical-align: middle;
+  padding-top: 2px !important;
+}
+/* line 202, ../../../../compass/admin_style/partials/_content.scss */
+.change-list #changelist .toplinks {
+  border-bottom: none !important;
+  background: none;
+  margin-bottom: 5px !important;
+}
+/* line 203, ../../../../compass/admin_style/partials/_content.scss */
+.change-list #changelist .paginator {
+  border: none;
+  background: none;
+}
+
+/* line 211, ../../../../compass/admin_style/partials/_content.scss */
+.delete-confirmation .colM {
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -o-border-radius: 3px;
+  border-radius: 3px;
+  -webkit-box-shadow: 0 1px 2px 1px rgba(0, 0, 0, 0.08);
+  -moz-box-shadow: 0 1px 2px 1px rgba(0, 0, 0, 0.08);
+  box-shadow: 0 1px 2px 1px rgba(0, 0, 0, 0.08);
+  padding: 0;
+  background: white;
+  border: none;
+  margin-bottom: 5px;
+  padding: 20px;
+  margin: 15px !important;
+}
+/* line 6, ../../../../compass/admin_style/partials/_mixins.scss */
+.delete-confirmation .colM h2, .delete-confirmation .colM h3, .delete-confirmation .colM h4, .delete-confirmation .colM h5, .delete-confirmation .colM h6 {
+  margin-bottom: 12px;
+  margin-top: 0;
+}
+/* line 213, ../../../../compass/admin_style/partials/_content.scss */
+.delete-confirmation .colM h1 {
+  margin: 0 0 10px 0;
+}
+/* line 214, ../../../../compass/admin_style/partials/_content.scss */
+.delete-confirmation .colM li {
+  line-height: 16px;
+}
+/* line 215, ../../../../compass/admin_style/partials/_content.scss */
+.delete-confirmation .colM input[type="submit"] {
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ef4a4a), color-stop(100%, #e80101)) !important;
+  background-image: -webkit-linear-gradient(#ef4a4a, #e80101) !important;
+  background-image: -moz-linear-gradient(#ef4a4a, #e80101) !important;
+  background-image: -o-linear-gradient(#ef4a4a, #e80101) !important;
+  background-image: linear-gradient(#ef4a4a, #e80101) !important;
+  -webkit-box-shadow: #ef4a4a 0 0 2px inset !important;
+  -moz-box-shadow: #ef4a4a 0 0 2px inset !important;
+  box-shadow: #ef4a4a 0 0 2px inset !important;
+  background-color: #e80101 !important;
+  border: 1px solid #ef4a4a !important;
+  border-bottom: 1px solid #d50101 !important;
+  color: white !important;
+  float: right;
+}
+/* line 114, ../../../../compass/admin_style/partials/_mixins.scss */
+.delete-confirmation .colM input[type="submit"]:hover {
+  background: #ef4a4a !important;
+  color: white !important;
+}
+/* line 118, ../../../../compass/admin_style/partials/_mixins.scss */
+.delete-confirmation .colM input[type="submit"]:active {
+  background: #e80101 !important;
+}
+/* line 121, ../../../../compass/admin_style/partials/_mixins.scss */
+.delete-confirmation .colM input[type="submit"].animate {
+  -webkit-background-size: 100% 400%;
+  -moz-background-size: 100% 400%;
+  -o-background-size: 100% 400%;
+  background-size: 100% 400%;
+  background-image: -webkit-linear-gradient(-45deg, rgba(255, 255, 255, 0.2) 25%, rgba(255, 255, 255, 0) 25%, rgba(255, 255, 255, 0) 50%, rgba(255, 255, 255, 0.2) 50%, rgba(255, 255, 255, 0.2) 75%, rgba(255, 255, 255, 0) 75%, rgba(255, 255, 255, 0));
+  background-image: -moz-linear-gradient(-45deg, rgba(255, 255, 255, 0.2) 25%, rgba(255, 255, 255, 0) 25%, rgba(255, 255, 255, 0) 50%, rgba(255, 255, 255, 0.2) 50%, rgba(255, 255, 255, 0.2) 75%, rgba(255, 255, 255, 0) 75%, rgba(255, 255, 255, 0));
+  background-image: -o-linear-gradient(-45deg, rgba(255, 255, 255, 0.2) 25%, rgba(255, 255, 255, 0) 25%, rgba(255, 255, 255, 0) 50%, rgba(255, 255, 255, 0.2) 50%, rgba(255, 255, 255, 0.2) 75%, rgba(255, 255, 255, 0) 75%, rgba(255, 255, 255, 0));
+  background-image: linear-gradient(-45deg, rgba(255, 255, 255, 0.2) 25%, rgba(255, 255, 255, 0) 25%, rgba(255, 255, 255, 0) 50%, rgba(255, 255, 255, 0.2) 50%, rgba(255, 255, 255, 0.2) 75%, rgba(255, 255, 255, 0) 75%, rgba(255, 255, 255, 0));
+}
+
+/* line 219, ../../../../compass/admin_style/partials/_content.scss */
+#sitemap li a.addlink, #sitemap li a.deletelink {
+  width: 11px;
+  height: 11px;
+}
+
+/* line 221, ../../../../compass/admin_style/partials/_content.scss */
+.tree .col1 .changelink {
+  float: left;
+  line-height: 16px !important;
+  margin: 6px 0 0 15px !important;
+}
+
+/* line 225, ../../../../compass/admin_style/partials/_content.scss */
+#page_form_lang_tabs input {
+  -moz-border-radius-bottomleft: 0;
+  -webkit-border-bottom-left-radius: 0;
+  border-bottom-left-radius: 0;
+  -moz-border-radius-bottomright: 0;
+  -webkit-border-bottom-right-radius: 0;
+  border-bottom-right-radius: 0;
+  -webkit-box-shadow: none !important;
+  -moz-box-shadow: none !important;
+  box-shadow: none !important;
+  background: #ccc !important;
+  color: #666666 !important;
+  font-weight: normal !important;
+  border: none !important;
+  margin: 0;
+}
+/* line 229, ../../../../compass/admin_style/partials/_content.scss */
+#page_form_lang_tabs input:hover, #page_form_lang_tabs input:focus {
+  color: black !important;
+}
+/* line 230, ../../../../compass/admin_style/partials/_content.scss */
+#page_form_lang_tabs input.selected {
+  background: white !important;
+  color: black !important;
+}
+/* line 231, ../../../../compass/admin_style/partials/_content.scss */
+#page_form_lang_tabs input.notfilled {
+  background: #f1f1f1 !important;
+  color: #bbb !important;
+}
+
+/* line 233, ../../../../compass/admin_style/partials/_content.scss */
+#lang_tab_content h2.header {
+  background: #5bbdee !important;
+  -moz-border-radius-topright: 3px;
+  -webkit-border-top-right-radius: 3px;
+  border-top-right-radius: 3px;
+  margin-bottom: -3px !important;
+  position: relative;
+}
+
+/* line 238, ../../../../compass/admin_style/partials/_content.scss */
+.nani-language-tabs {
+  border-bottom: 5px solid #5bbdee;
+  margin-bottom: -3px;
+  position: relative;
+}
+/* line 240, ../../../../compass/admin_style/partials/_content.scss */
+.nani-language-tabs > span {
+  display: -moz-inline-stack;
+  display: inline-block;
+  vertical-align: middle;
+  *vertical-align: auto;
+  zoom: 1;
+  *display: inline;
+  border: none !important;
+  top: 0 !important;
+  color: #666666 !important;
+  font-weight: normal !important;
+  vertical-align: top;
+  background: white;
+  padding: 8px 10px !important;
+  margin: 0 !important;
+  -moz-border-radius-topleft: 3px;
+  -webkit-border-top-left-radius: 3px;
+  border-top-left-radius: 3px;
+  -moz-border-radius-topright: 3px;
+  -webkit-border-top-right-radius: 3px;
+  border-top-right-radius: 3px;
+}
+/* line 244, ../../../../compass/admin_style/partials/_content.scss */
+.nani-language-tabs > span a {
+  color: #666666 !important;
+  padding: 5px 10px;
+}
+/* line 246, ../../../../compass/admin_style/partials/_content.scss */
+.nani-language-tabs > span a:hover, .nani-language-tabs > span a:focus {
+  color: black !important;
+  text-decoration: none;
+}
+/* line 248, ../../../../compass/admin_style/partials/_content.scss */
+.nani-language-tabs > span .deletelink {
+  display: inline;
+  padding: 0 0 0 12px !important;
+  margin: 0;
+  -moz-border-radius-topleft: 0;
+  -webkit-border-top-left-radius: 0;
+  border-top-left-radius: 0;
+  -moz-border-radius-topright: 0;
+  -webkit-border-top-right-radius: 0;
+  border-top-right-radius: 0;
+  background: url("../img/icon_deletelink.png") 0 0.25em no-repeat !important;
+  bottom: 0px !important;
+  right: -3px !important;
+}
+/* line 252, ../../../../compass/admin_style/partials/_content.scss */
+.nani-language-tabs > .empty {
+  opacity: 1 !important;
+  background: #f1f1f1;
+  color: #888888;
+}
+/* line 253, ../../../../compass/admin_style/partials/_content.scss */
+.nani-language-tabs > .current {
+  background: #5bbdee;
+  color: white !important;
+  padding-left: 20px !important;
+  padding-right: 20px !important;
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+}
+/* line 255, ../../../../compass/admin_style/partials/_content.scss */
+.nani-language-tabs > .current .deletelink {
+  right: -12px !important;
+}
+
+/* line 257, ../../../../compass/admin_style/partials/_content.scss */
+.inline-group .nani-language-tabs {
+  margin-bottom: 0;
+}
+/* line 259, ../../../../compass/admin_style/partials/_content.scss */
+.inline-group .nani-language-tabs > span {
+  padding: 4px 10px !important;
+}
+/* line 260, ../../../../compass/admin_style/partials/_content.scss */
+.inline-group .nani-language-tabs > .current {
+  padding-left: 20px !important;
+  padding-right: 20px !important;
+}
+/* line 261, ../../../../compass/admin_style/partials/_content.scss */
+.inline-group .nani-language-tabs > .available {
+  background: #eee;
+}
+
+/* line 2, ../../../../compass/admin_style/partials/_icons.scss */
+.addlink, .changelink, .deletelink {
+  padding-left: 15px;
+}
+
+/* line 4, ../../../../compass/admin_style/partials/_icons.scss */
+.deletelink {
+  background-image: url("../img/icon_deletelink.png");
+}
+
+/* line 6, ../../../../compass/admin_style/partials/_icons.scss */
+.related-lookup, .add-another {
+  margin: 0 5px;
+}
+/* line 8, ../../../../compass/admin_style/partials/_icons.scss */
+.related-lookup:hover, .related-lookup:focus, .related-lookup:active, .add-another:hover, .add-another:focus, .add-another:active {
+  text-decoration: none !important;
+}
+
+/* line 10, ../../../../compass/admin_style/partials/_icons.scss */
+.add-another {
+  text-indent: -119988px;
+  overflow: hidden;
+  text-align: left;
+  display: -moz-inline-stack;
+  display: inline-block;
+  vertical-align: middle;
+  *vertical-align: auto;
+  zoom: 1;
+  *display: inline;
+  width: 14px;
+  height: 14px;
+  background: url("../img/icon_addlink_large.gif") 0 0 no-repeat;
+}
+
+/* line 13, ../../../../compass/admin_style/partials/_icons.scss */
+.tree .changelink {
+  background-image: url("../img/icon_changelink_white.png");
+}
+
+/* line 15, ../../../../compass/admin_style/partials/_icons.scss */
+#sitemap li .col-softroot span.icon {
+  background: url("../img/icon_softroot.png") 0 0 no-repeat;
+  width: 15px;
+  height: 15px;
+  margin: 7px 5px 0 0;
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (min-device-pixel-ratio: 2) {
+  /* line 23, ../../../../compass/admin_style/partials/_icons.scss */
+  .addlink {
+    background-image: url("../img/icon_addlink@2x.gif");
+    background-size: 11px;
+  }
+
+  /* line 24, ../../../../compass/admin_style/partials/_icons.scss */
+  .changelink {
+    background-image: url("../img/icon_changelink@2x.gif");
+    background-size: 11px;
+  }
+
+  /* line 25, ../../../../compass/admin_style/partials/_icons.scss */
+  .tree .changelink {
+    background-image: url("../img/icon_changelink_white@2x.png");
+    background-size: 11px;
+  }
+
+  /* line 26, ../../../../compass/admin_style/partials/_icons.scss */
+  .deletelink {
+    background-image: url("../img/icon_deletelink@2x.png");
+    background-size: 11px;
+  }
+
+  /* line 27, ../../../../compass/admin_style/partials/_icons.scss */
+  #sitemap li .col-softroot span.icon {
+    background-image: url("../img/icon_softroot@2x.png");
+    background-size: 15px;
+  }
+
+  /* line 28, ../../../../compass/admin_style/partials/_icons.scss */
+  .related-lookup {
+    text-indent: -119988px;
+    overflow: hidden;
+    text-align: left;
+    display: -moz-inline-stack;
+    display: inline-block;
+    vertical-align: middle;
+    *vertical-align: auto;
+    zoom: 1;
+    *display: inline;
+    width: 16px;
+    height: 16px;
+    background: url("../img/icon_searchbox@2x.png") 0 0 no-repeat;
+    background-size: 16px;
+  }
+
+  /* line 30, ../../../../compass/admin_style/partials/_icons.scss */
+  .add-another {
+    text-indent: -119988px;
+    overflow: hidden;
+    text-align: left;
+    display: -moz-inline-stack;
+    display: inline-block;
+    vertical-align: middle;
+    *vertical-align: auto;
+    zoom: 1;
+    *display: inline;
+    width: 14px;
+    height: 14px;
+    background: url("../img/icon_addlink_large@2x.gif") 0 0 no-repeat;
+    background-size: 14px;
+  }
+}
+/* line 2, ../../../../compass/admin_style/partials/_shortcuts.scss */
+.admin_shortcuts .shortcuts {
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+  background: #595f65;
+  border-top: 1px solid #444444;
+  color: #cccccc;
+}
+/* line 5, ../../../../compass/admin_style/partials/_shortcuts.scss */
+.admin_shortcuts .shortcuts h2 {
+  border: none;
+  font-weight: normal;
+}
+/* line 7, ../../../../compass/admin_style/partials/_shortcuts.scss */
+.admin_shortcuts .shortcuts li a, .admin_shortcuts .shortcuts li a:link, .admin_shortcuts .shortcuts li a:visited {
+  background-color: #464b50;
+  border: 1px solid #444444;
+  text-decoration: none;
+}
+/* line 9, ../../../../compass/admin_style/partials/_shortcuts.scss */
+.admin_shortcuts .shortcuts li a .count, .admin_shortcuts .shortcuts li a:link .count, .admin_shortcuts .shortcuts li a:visited .count {
+  color: #888888;
+}
+/* line 10, ../../../../compass/admin_style/partials/_shortcuts.scss */
+.admin_shortcuts .shortcuts li a .count_new, .admin_shortcuts .shortcuts li a:link .count_new, .admin_shortcuts .shortcuts li a:visited .count_new {
+  background: #029eee;
+  border-color: #5bbdee;
+}
+/* line 12, ../../../../compass/admin_style/partials/_shortcuts.scss */
+.admin_shortcuts .shortcuts li a:hover, .admin_shortcuts .shortcuts li a:focus {
+  background-color: #4e5359;
+}
+/* line 13, ../../../../compass/admin_style/partials/_shortcuts.scss */
+.admin_shortcuts .shortcuts li a:active {
+  background-color: #464b50;
+}
+
+@media only screen and (max-width: 420px), print {
+  /* line 2, ../../../../compass/admin_style/partials/_mobile.scss */
+  html, body {
+    height: auto;
+  }
+
+  /* line 3, ../../../../compass/admin_style/partials/_mobile.scss */
+  #content {
+    margin: 0 5px;
+  }
+
+  /* line 4, ../../../../compass/admin_style/partials/_mobile.scss */
+  #container {
+    margin: 0;
+    min-width: 240px !important;
+  }
+
+  /* line 5, ../../../../compass/admin_style/partials/_mobile.scss */
+  #branding {
+    display: none;
+  }
+
+  /* line 6, ../../../../compass/admin_style/partials/_mobile.scss */
+  .login #branding {
+    display: block;
+  }
+
+  /* line 7, ../../../../compass/admin_style/partials/_mobile.scss */
+  #user-tools {
+    position: relative;
+    text-align: center;
+  }
+
+  /* line 10, ../../../../compass/admin_style/partials/_mobile.scss */
+  .module {
+    border: none;
+    box-shadow: none;
+    padding: 5px 0 5px 0 !important;
+    -webkit-box-shadow: none !important;
+    -moz-box-shadow: none !important;
+    box-shadow: none !important;
+  }
+  /* line 13, ../../../../compass/admin_style/partials/_mobile.scss */
+  .module caption {
+    margin-bottom: 5px;
+    margin-left: 5px;
+  }
+
+  /* line 15, ../../../../compass/admin_style/partials/_mobile.scss */
+  div.breadcrumbs {
+    padding-left: 5px;
+  }
+
+  /* line 16, ../../../../compass/admin_style/partials/_mobile.scss */
+  .plugin-holder {
+    display: none !important;
+  }
+
+  /* line 20, ../../../../compass/admin_style/partials/_mobile.scss */
+  body.login #container {
+    width: auto !important;
+    max-width: 320px;
+  }
+  /* line 23, ../../../../compass/admin_style/partials/_mobile.scss */
+  body.login #container #content #content-main .form-row, body.login #container #content #content-main .submit-row {
+    text-align: center;
+  }
+  /* line 24, ../../../../compass/admin_style/partials/_mobile.scss */
+  body.login #container #content #content-main .form-row input {
+    width: auto !important;
+    max-width: none;
+    min-width: 40px;
+  }
+  /* line 25, ../../../../compass/admin_style/partials/_mobile.scss */
+  body.login #container #content #content-main .submit-row input, body.login #container #content #content-main .submit-row input[type="submit"] {
+    width: 80% !important;
+  }
+
+  /* line 31, ../../../../compass/admin_style/partials/_mobile.scss */
+  .colMS {
+    margin-right: 10px !important;
+  }
+
+  /* line 34, ../../../../compass/admin_style/partials/_mobile.scss */
+  .dashboard #container #content h1 {
+    display: none;
+  }
+  /* line 35, ../../../../compass/admin_style/partials/_mobile.scss */
+  .dashboard #container #content-main {
+    min-width: 0;
+    max-width: none;
+    float: none;
+  }
+  /* line 37, ../../../../compass/admin_style/partials/_mobile.scss */
+  .dashboard #container #content-main .addlink, .dashboard #container #content-main .changelink {
+    text-indent: -9999px;
+    overflow: hidden;
+  }
+  /* line 39, ../../../../compass/admin_style/partials/_mobile.scss */
+  .dashboard #container #content-related {
+    width: auto;
+    float: none;
+    margin-right: 0;
+  }
+  /* line 40, ../../../../compass/admin_style/partials/_mobile.scss */
+  .dashboard #container #content-related .module {
+    padding: 10px !important;
+    margin: 10px 0;
+  }
+  /* line 42, ../../../../compass/admin_style/partials/_mobile.scss */
+  .dashboard #container #content-related .module .actionlist {
+    margin-left: 10px;
+  }
+  /* line 45, ../../../../compass/admin_style/partials/_mobile.scss */
+  .dashboard .module {
+    background: none !important;
+  }
+
+  /* line 52, ../../../../compass/admin_style/partials/_mobile.scss */
+  .change-list #content .object-tools {
+    float: right;
+    margin: -35px 0 0 0;
+  }
+  /* line 55, ../../../../compass/admin_style/partials/_mobile.scss */
+  .change-list #toolbar label {
+    display: inline-block;
+  }
+  /* line 56, ../../../../compass/admin_style/partials/_mobile.scss */
+  .change-list #toolbar form #searchbar {
+    width: 120px;
+  }
+  /* line 57, ../../../../compass/admin_style/partials/_mobile.scss */
+  .change-list #toolbar .small {
+    display: block;
+  }
+  /* line 59, ../../../../compass/admin_style/partials/_mobile.scss */
+  .change-list .filtered .results, .change-list .change-list .filtered .paginator, .change-list .filtered #toolbar, .change-list .filtered div.xfull {
+    margin-right: 0 !important;
+  }
+  /* line 61, ../../../../compass/admin_style/partials/_mobile.scss */
+  .change-list .module #changelist-form .results {
+    width: 100%;
+    overflow: auto;
+  }
+  /* line 63, ../../../../compass/admin_style/partials/_mobile.scss */
+  .change-list .filtered .actions, .change-list .filtered .paginator {
+    margin-right: 0 !important;
+  }
+
+  /* line 66, ../../../../compass/admin_style/partials/_mobile.scss */
+  #changelist-filter-button, #changelist-filter {
+    display: none !important;
+  }
+
+  /* line 67, ../../../../compass/admin_style/partials/_mobile.scss */
+  .tree {
+    background: white;
+  }
+
+  /* line 71, ../../../../compass/admin_style/partials/_mobile.scss */
+  .change-form h1 {
+    margin-left: 0;
+  }
+
+  /* line 75, ../../../../compass/admin_style/partials/_mobile.scss */
+  #page_form_lang_tabs input {
+    font-weight: normal !important;
+    font-size: 11px !important;
+    padding: 2px 4px !important;
+  }
+
+  /* line 78, ../../../../compass/admin_style/partials/_mobile.scss */
+  .nani-language-tabs > span {
+    font-size: 11px !important;
+    padding: 4px 1px !important;
+  }
+  /* line 80, ../../../../compass/admin_style/partials/_mobile.scss */
+  .nani-language-tabs > span a {
+    padding: 3px 5px !important;
+  }
+  /* line 81, ../../../../compass/admin_style/partials/_mobile.scss */
+  .nani-language-tabs > span .deletelink {
+    right: 0 !important;
+  }
+  /* line 83, ../../../../compass/admin_style/partials/_mobile.scss */
+  .nani-language-tabs > .current {
+    padding: 4px 10px 4px 5px !important;
+  }
+  /* line 85, ../../../../compass/admin_style/partials/_mobile.scss */
+  .nani-language-tabs > .current .deletelink {
+    right: -8px !important;
+  }
+
+  /* line 90, ../../../../compass/admin_style/partials/_mobile.scss */
+  form label, .aligned label {
+    display: block;
+    padding: 0 !important;
+    float: none !important;
+    line-height: 14px;
+    margin-top: 5px;
+    width: auto;
+  }
+
+  /* line 93, ../../../../compass/admin_style/partials/_mobile.scss */
+  form input, form input[type="file"], form textarea, form select {
+    width: auto;
+    /*max-width: 200px;*/
+  }
+  /* line 94, ../../../../compass/admin_style/partials/_mobile.scss */
+  form .vTextField {
+    width: auto;
+  }
+  /* line 95, ../../../../compass/admin_style/partials/_mobile.scss */
+  form .aligned p, form .aligned ul {
+    padding-left: 0 !important;
+    margin-left: 0 !important;
+  }
+  /* line 96, ../../../../compass/admin_style/partials/_mobile.scss */
+  form .submit-row {
+    text-align: left;
+  }
+
+  /* line 100, ../../../../compass/admin_style/partials/_mobile.scss */
+  .inline-group {
+    padding: 5px;
+    margin-bottom: 10px;
+  }
+  /* line 103, ../../../../compass/admin_style/partials/_mobile.scss */
+  .inline-group .module h2 {
+    padding-left: 5px;
+  }
+
+  /* line 108, ../../../../compass/admin_style/partials/_mobile.scss */
+  .selector {
+    width: auto;
+    float: none;
+  }
+  /* line 110, ../../../../compass/admin_style/partials/_mobile.scss */
+  .selector .selector-available, .selector .selector-chosen {
+    width: auto;
+    float: none;
+  }
+  /* line 112, ../../../../compass/admin_style/partials/_mobile.scss */
+  .selector .selector-available p, .selector .selector-chosen p {
+    text-align: center;
+  }
+  /* line 114, ../../../../compass/admin_style/partials/_mobile.scss */
+  .selector .selector-chosen {
+    margin-top: 60px;
+  }
+  /* line 115, ../../../../compass/admin_style/partials/_mobile.scss */
+  .selector ul.selector-chooser {
+    margin-top: 0;
+    display: block;
+  }
+  /* line 116, ../../../../compass/admin_style/partials/_mobile.scss */
+  .selector select[multiple], .selector select {
+    max-width: none;
+    width: 100%;
+  }
+  /* line 117, ../../../../compass/admin_style/partials/_mobile.scss */
+  .selector label {
+    display: inline-block;
+  }
+  /* line 118, ../../../../compass/admin_style/partials/_mobile.scss */
+  .selector .selector-available input, .selector .selector-chosen input {
+    width: auto;
+  }
+
+  /* line 122, ../../../../compass/admin_style/partials/_mobile.scss */
+  .admin_shortcuts .shortcuts li a {
+    background-size: 20px 20px;
+    padding: 10px 10px 10px 40px;
+  }
+
+  /* line 123, ../../../../compass/admin_style/partials/_mobile.scss */
+  .admin_shortcuts .shortcuts li a span {
+    padding: 0 !important;
+  }
+
+  /* line 124, ../../../../compass/admin_style/partials/_mobile.scss */
+  .admin_shortcuts .shortcuts li:first-child a {
+    padding: 10px 20px;
+  }
+}
+/* line 23, ../../../../compass/admin_style/djangocms-admin.scss */
+body .pulldown-versions-container .pulldown-versions a {
+  color: #ffffff !important;
+}

@@ -1,0 +1,19 @@
+/* line 1, ../../../../compass/admin_style/djangocms-admin-frontend.scss */
+#header, .breadcrumbs {
+  display: none;
+}
+
+/* line 2, ../../../../compass/admin_style/djangocms-admin-frontend.scss */
+.login #header {
+  display: block;
+}
+
+/* line 3, ../../../../compass/admin_style/djangocms-admin-frontend.scss */
+#container {
+  padding-top: 31px;
+}
+
+/* line 5, ../../../../compass/admin_style/djangocms-admin-frontend.scss */
+form select {
+  max-width: 240px;
+}
