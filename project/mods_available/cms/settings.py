@@ -5,7 +5,6 @@ INSTALLED_APPS = add_to_tuple(INSTALLED_APPS,
     'menus',  # helper for model independent hierarchical website navigation
     'south',  # intelligent schema and data migrations
     'sekizai',  # for javascript and css management
-    'djangocms_admin_style',  # for the admin skin. You **must** add 'djangocms_admin_style' in the list **before** 'django.contrib.admin'.
     'djangocms_snippet',
     #'cmsplugin_filer_image',
     #'reversion', # raise error on south migration, there is a bug with the last version and django1.6
