@@ -6,7 +6,6 @@ INSTALLED_APPS = add_to_tuple(INSTALLED_APPS,
     'south',  # intelligent schema and data migrations
     'sekizai',  # for javascript and css management
     'djangocms_snippet',
-    #'cmsplugin_filer_image',
     #'reversion', # raise error on south migration, there is a bug with the last version and django1.6
 )
 
@@ -37,6 +36,3 @@ CMS_TEMPLATES = (
 # Uncomment this to enable per-object user permission
 # See http://docs.django-cms.org/en/latest/advanced/permissions_reference.html
 #CMS_PERMISSION = True
-
-## Enable 'cmsplugin_filer_image' usage in ckeditor
-#TEXT_SAVE_IMAGE_FUNCTION='cmsplugin_filer_image.integrations.ckeditor.create_image_plugin'

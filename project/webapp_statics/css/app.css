@@ -8536,7 +8536,20 @@ img.divider {
   height: 300px;
 }
 
-/* line 67, ../../../compass/scss/app.scss */
+/* line 69, ../../../compass/scss/app.scss */
+.top-bar-section #auth-menu > strong {
+  color: white;
+  line-height: 45px;
+  padding: 0 15px;
+}
+/* line 75, ../../../compass/scss/app.scss */
+.top-bar-section #languageChooser a {
+  position: relative;
+  line-height: 1;
+  padding: 15px 40px;
+}
+
+/* line 83, ../../../compass/scss/app.scss */
 #body_content {
   /*
   .album-grid-aside{

@@ -61,7 +61,7 @@ LANGUAGES = (
     #("pl", gettext(u"Polska")),
     #("ru", gettext(u"Россия")),
     #("en-gb", gettext(u"United Kingdom")),
-    #("en", gettext(u"USA")),
+    ("en", gettext(u"USA")),
     #("ja", gettext(u"日本")),
     #('zh-cn', gettext(u'中国')),
     #("ko-kr", gettext(u"한국")),
